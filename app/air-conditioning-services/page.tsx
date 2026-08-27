@@ -1,18 +1,18 @@
 // File path: app/air-conditioning-services/page.tsx
-// Clean URL: https://www.coldfix.co.za/air-conditioning-services
+// Clean URL: https://www.gautengrepairnetwork.co.za/air-conditioning-services
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Snowflake, Zap, Award, Wrench, Building2, Clock, Refrigerator, WashingMachine } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Air Conditioning Services in Gauteng | AC Installation, Repairs and Servicing | Cold Fix Services",
+  title: "Air Conditioning Services in Gauteng | AC Installation, Repairs and Servicing | Gauteng Repair Network",
   description:
     "Professional air conditioning installation, servicing, repairs and gas refills in Gauteng. Expert aircon technicians for homes and businesses in Pretoria, Johannesburg and Midrand. Split systems, ducted AC, inverters. Same day service available.",
   keywords:
     "air conditioning Gauteng, AC installation Pretoria, aircon repairs Johannesburg, aircon service Midrand, split system installation, ducted air conditioning, aircon gas refill, inverter aircon",
   openGraph: {
-    title: "Air Conditioning Services | Cold Fix Services Gauteng",
+    title: "Air Conditioning Services | Gauteng Repair Network Gauteng",
     description:
       "Reliable climate control for homes and businesses in Gauteng. Professional AC installation, servicing, repairs and gas refills. Same day service available.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/air-conditioning-service-gauteng.png",
         width: 1200,
         height: 630,
-        alt: "Professional air conditioning installation in Gauteng by Cold Fix Services",
+        alt: "Professional air conditioning installation in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function AirConditioningServicesPage() {
   return (
     <ServicePageTemplate
       title="Air Conditioning Services"
-      description="Stay comfortable all year round with professional air conditioning solutions from Cold Fix Services. We install, service, and repair split systems, multi split units, ducted systems, and inverters for homes and businesses across Gauteng. Our technicians are refrigerant handling certified and work with all major brands to keep your space cool and your running costs low."
+      description="Stay comfortable all year round with professional air conditioning solutions from Gauteng Repair Network. We install, service, and repair split systems, multi split units, ducted systems, and inverters for homes and businesses across Gauteng. Our technicians are refrigerant handling certified and work with all major brands to keep your space cool and your running costs low."
       icon={Snowflake}
       heroImage="/air-conditioning-service-gauteng.png"
       priceRange="Free quotes"
@@ -140,7 +140,7 @@ export default function AirConditioningServicesPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Whether you need a new installation for your home, aircon repairs for your office, or regular servicing for a commercial system, <strong>Cold Fix Services</strong> has the skill and experience to deliver reliable, energy efficient climate control across <strong>Pretoria, Johannesburg, Midrand</strong>, and all of Gauteng.
+                Whether you need a new installation for your home, aircon repairs for your office, or regular servicing for a commercial system, <strong>Gauteng Repair Network</strong> has the skill and experience to deliver reliable, energy efficient climate control across <strong>Pretoria, Johannesburg, Midrand</strong>, and all of Gauteng.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -191,7 +191,7 @@ export default function AirConditioningServicesPage() {
                   Emergency Aircon Repairs Available
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Air conditioning breakdowns never happen at a convenient time. We offer same day emergency repairs across Gauteng. Call us on <strong className="text-secondary">+27 70 309 6749</strong> for immediate help.
+                  Air conditioning breakdowns never happen at a convenient time. We offer same day emergency repairs across Gauteng. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for immediate help.
                 </p>
               </div>
             </div>

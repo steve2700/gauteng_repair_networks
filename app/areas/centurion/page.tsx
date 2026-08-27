@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Centurion | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Centurion | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs in Centurion. Serving Highveld, Eldoraigne, Irene, Wierdapark, Zwartkop and all Centurion suburbs. Same day callouts available.",
 }
@@ -11,7 +11,7 @@ export default function CenturionPage() {
   return (
     <ServiceAreaTemplate
       areaName="Centurion"
-      description="Cold Fix Services provides trusted air conditioning, refrigeration, and appliance repairs throughout Centurion. From family homes in established suburbs to modern developments and businesses, we keep your cooling and appliances running reliably."
+      description="Gauteng Repair Network provides trusted air conditioning, refrigeration, and appliance repairs throughout Centurion. From family homes in established suburbs to modern developments and businesses, we keep your cooling and appliances running reliably."
       introImage="/appliance_repairs_centurion.jpg"
       suburbs={[
         "Highveld",
@@ -25,7 +25,7 @@ export default function CenturionPage() {
         "Lyttelton",
         "Clubview",
       ]}
-      introduction="Centurion offers suburban living with easy access to both Pretoria and Johannesburg. Cold Fix Services has become a reliable choice in the area for households and businesses that need fast fridge, freezer, air conditioning, and appliance repairs. Our local presence means prompt service and a real understanding of what Centurion homes and businesses need to stay cool and comfortable."
+      introduction="Centurion offers suburban living with easy access to both Pretoria and Johannesburg. Gauteng Repair Network has become a reliable choice in the area for households and businesses that need fast fridge, freezer, air conditioning, and appliance repairs. Our local presence means prompt service and a real understanding of what Centurion homes and businesses need to stay cool and comfortable."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -49,10 +49,10 @@ export default function CenturionPage() {
         "Trusted by Centurion homes and businesses",
       ]}
       nearbyAreas={[
-        { name: "Pretoria", href: "/service-areas/pretoria" },
-        { name: "Midrand", href: "/service-areas/midrand" },
-        { name: "Johannesburg", href: "/service-areas/johannesburg" },
-        { name: "Sandton", href: "/service-areas/sandton" },
+        { name: "Pretoria", href: "/areas/pretoria" },
+        { name: "Midrand", href: "/areas/midrand" },
+        { name: "Johannesburg", href: "/areas/johannesburg" },
+        { name: "Sandton", href: "/areas/sandton" },
       ]}
     />
   )

@@ -2,11 +2,11 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Bedfordview | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Bedfordview | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs in Bedfordview and the East Rand. Serving Edenvale, Germiston, Kensington, Kempton Park and surrounding areas. Same day callouts available.",
   openGraph: {
-    title: "Appliance, Aircon and Refrigeration Repairs in Bedfordview | Cold Fix Services",
+    title: "Appliance, Aircon and Refrigeration Repairs in Bedfordview | Gauteng Repair Network",
     description:
       "Reliable air conditioning, refrigeration, and appliance repairs for Bedfordview and East Rand homes and businesses.",
   },
@@ -16,10 +16,10 @@ export default function BedfordviewPage() {
   return (
     <ServiceAreaTemplate
       areaName="Bedfordview"
-      description="Cold Fix Services provides air conditioning, refrigeration, and appliance repairs across Bedfordview and the greater East Rand. From upmarket homes to shops, offices, and industrial facilities, we keep your cooling and appliances running reliably."
+      description="Gauteng Repair Network provides air conditioning, refrigeration, and appliance repairs across Bedfordview and the greater East Rand. From upmarket homes to shops, offices, and industrial facilities, we keep your cooling and appliances running reliably."
       introImage="/air_conditioner_installed_kemptonpark.jpg"
       suburbs={["Edenvale", "Germiston", "Kensington", "Kempton Park", "Boksburg", "Benoni", "East Rand Mall area"]}
-      introduction="Bedfordview and the greater East Rand feature a wide mix of properties, from upmarket homes to retail centres and industrial facilities. Cold Fix Services serves this region with reliable cooling and appliance repairs, understanding the practical needs of East Rand homes and businesses. Whether it is a fridge, freezer, air conditioner, or appliance that needs attention, our technicians respond quickly with quality work."
+      introduction="Bedfordview and the greater East Rand feature a wide mix of properties, from upmarket homes to retail centres and industrial facilities. Gauteng Repair Network serves this region with reliable cooling and appliance repairs, understanding the practical needs of East Rand homes and businesses. Whether it is a fridge, freezer, air conditioner, or appliance that needs attention, our technicians respond quickly with quality work."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -43,9 +43,9 @@ export default function BedfordviewPage() {
         "24 hour emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
-        { name: "Johannesburg", href: "/service-areas/johannesburg" },
-        { name: "Sandton", href: "/service-areas/sandton" },
-        { name: "Midrand", href: "/service-areas/midrand" },
+        { name: "Johannesburg", href: "/areas/johannesburg" },
+        { name: "Sandton", href: "/areas/sandton" },
+        { name: "Midrand", href: "/areas/midrand" },
       ]}
     />
   )

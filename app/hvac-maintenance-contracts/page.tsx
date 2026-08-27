@@ -1,18 +1,18 @@
 // File path: app/hvac-maintenance-contracts/page.tsx
-// Clean URL: https://www.coldfix.co.za/hvac-maintenance-contracts
+// Clean URL: https://www.gautengrepairnetwork.co.za/hvac-maintenance-contracts
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { ShieldCheck, Snowflake, Wrench, Clock, Award, Wind, Store, Warehouse } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "HVAC Maintenance Contracts in Gauteng | Air Conditioning Service Plans | Cold Fix Services",
+  title: "HVAC Maintenance Contracts in Gauteng | Air Conditioning Service Plans | Gauteng Repair Network",
   description:
     "HVAC and air conditioning maintenance contracts across Gauteng. Scheduled servicing for offices, retail, and industrial sites keeps your systems efficient and reliable. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
     "HVAC maintenance contract Gauteng, air conditioning service plan Johannesburg, aircon maintenance Pretoria, commercial HVAC servicing, refrigeration maintenance Midrand",
   openGraph: {
-    title: "HVAC Maintenance Contracts | Cold Fix Services Gauteng",
+    title: "HVAC Maintenance Contracts | Gauteng Repair Network Gauteng",
     description:
       "Scheduled HVAC and refrigeration maintenance plans that keep your systems efficient and reliable across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/hvac-maintenance-technician.png",
         width: 1200,
         height: 630,
-        alt: "HVAC maintenance contracts in Gauteng by Cold Fix Services",
+        alt: "HVAC maintenance contracts in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function HvacMaintenancePage() {
   return (
     <ServicePageTemplate
       title="HVAC Maintenance Contracts"
-      description="Regular maintenance keeps air conditioning and refrigeration systems efficient, reliable, and cheaper to run. Cold Fix Services offers tailored HVAC maintenance contracts for offices, retail, and industrial sites across Gauteng. Scheduled servicing means fewer breakdowns, longer equipment life, and lower running costs."
+      description="Regular maintenance keeps air conditioning and refrigeration systems efficient, reliable, and cheaper to run. Gauteng Repair Network offers tailored HVAC maintenance contracts for offices, retail, and industrial sites across Gauteng. Scheduled servicing means fewer breakdowns, longer equipment life, and lower running costs."
       icon={ShieldCheck}
       heroImage="/hvac-maintenance-technician.png"
       priceRange="Tailored plans"
@@ -138,7 +138,7 @@ export default function HvacMaintenancePage() {
             <h2 className="mb-8 text-3xl font-bold">Maintenance Plans That Protect Your Systems</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Air conditioning and refrigeration equipment works hardest when you can least afford a breakdown. <strong>Cold Fix Services</strong> offers scheduled maintenance contracts that keep your systems efficient and reliable for businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We tailor every plan to your equipment and sites.
+                Air conditioning and refrigeration equipment works hardest when you can least afford a breakdown. <strong>Gauteng Repair Network</strong> offers scheduled maintenance contracts that keep your systems efficient and reliable for businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We tailor every plan to your equipment and sites.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="p-6 rounded-xl bg-card border border-border">

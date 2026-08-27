@@ -1,18 +1,18 @@
 // File path: app/emergency-callout-service/page.tsx
-// Clean URL: https://www.coldfix.co.za/emergency-callout-service
+// Clean URL: https://www.gautengrepairnetwork.co.za/emergency-callout-service
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Clock, Phone, Wrench, Award, ShieldCheck, Snowflake, Refrigerator, Zap } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Emergency Callout Service in Gauteng | Fast Refrigeration and Appliance Repairs | Cold Fix Services",
+  title: "Emergency Callout Service in Gauteng | Fast Refrigeration and Appliance Repairs | Gauteng Repair Network",
   description:
     "Emergency callout service for refrigeration, air conditioning, and appliance breakdowns across Gauteng. Fast response to protect your stock and get you running again. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
     "emergency refrigeration repair Gauteng, emergency aircon repair Johannesburg, urgent fridge repair Pretoria, emergency appliance callout, breakdown repair Midrand",
   openGraph: {
-    title: "Emergency Callout Service | Cold Fix Services Gauteng",
+    title: "Emergency Callout Service | Gauteng Repair Network Gauteng",
     description:
       "Fast emergency callouts for refrigeration, air conditioning, and appliance breakdowns across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/emergency-callout-technician.png",
         width: 1200,
         height: 630,
-        alt: "Emergency callout service in Gauteng by Cold Fix Services",
+        alt: "Emergency callout service in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function EmergencyCalloutPage() {
   return (
     <ServicePageTemplate
       title="Emergency Callout Service"
-      description="When a fridge, freezer, cold room, or air conditioner fails, every hour counts. Cold Fix Services provides a fast emergency callout service across Gauteng for refrigeration, air conditioning, and appliance breakdowns. We respond quickly to protect your stock, restore cooling, and get your home or business running again."
+      description="When a fridge, freezer, cold room, or air conditioner fails, every hour counts. Gauteng Repair Network provides a fast emergency callout service across Gauteng for refrigeration, air conditioning, and appliance breakdowns. We respond quickly to protect your stock, restore cooling, and get your home or business running again."
       icon={Clock}
       heroImage="/emergency-callout-technician.png"
       priceRange="Free quotes"
@@ -138,18 +138,18 @@ export default function EmergencyCalloutPage() {
             <h2 className="mb-8 text-3xl font-bold">Fast Help When Cooling Fails</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A sudden breakdown can put your food, medication, or business stock at risk. <strong>Cold Fix Services</strong> offers a fast emergency callout service for refrigeration, air conditioning, and appliance failures across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. Call us and we will get a technician to you as soon as possible.
+                A sudden breakdown can put your food, medication, or business stock at risk. <strong>Gauteng Repair Network</strong> offers a fast emergency callout service for refrigeration, air conditioning, and appliance failures across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. Call us and we will get a technician to you as soon as possible.
               </p>
               <div className="rounded-xl bg-card border border-border p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-secondary/10">
                   <Phone className="h-6 w-6 text-secondary" aria-hidden="true" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-secondary">Emergency? Call Cold Fix Services</h3>
+                  <h3 className="font-bold text-lg text-secondary">Emergency? Call Gauteng Repair Network</h3>
                   <p className="text-sm text-muted-foreground">
                     Reach us on{" "}
-                    <a href="tel:+27703096749" className="font-semibold text-foreground underline">
-                      +27 70 309 6749
+                    <a href="tel:+27693824908" className="font-semibold text-foreground underline">
+                      +27 69 382 4908
                     </a>{" "}
                     for a rapid response across Gauteng.
                   </p>

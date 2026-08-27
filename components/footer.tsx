@@ -13,18 +13,18 @@ const services = [
 ]
 
 const serviceAreas = [
-  { name: "Pretoria", href: "/service-areas/pretoria" },
-  { name: "Johannesburg", href: "/service-areas/johannesburg" },
-  { name: "Sandton", href: "/service-areas/sandton" },
-  { name: "Midrand", href: "/service-areas/midrand" },
-  { name: "Centurion", href: "/service-areas/centurion" },
-  { name: "Randburg", href: "/service-areas/randburg" },
+  { name: "Pretoria", href: "/areas/pretoria" },
+  { name: "Johannesburg", href: "/areas/johannesburg" },
+  { name: "Sandton", href: "/areas/sandton" },
+  { name: "Midrand", href: "/areas/midrand" },
+  { name: "Centurion", href: "/areas/centurion" },
+  { name: "Randburg", href: "/areas/randburg" },
 ]
 
 const quickLinks = [
   { title: "About Us", href: "/about" },
   { title: "All Services", href: "/services" },
-  { title: "Service Areas", href: "/service-areas" },
+  { title: "Service Areas", href: "/areas" },
   { title: "Contact Us", href: "/contact" },
   { title: "Get a Quote", href: "/contact#quote" },
 ]
@@ -78,7 +78,7 @@ export function Footer() {
               <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg">
                 <Image
                   src="/logo-icon.png"
-                  alt="Cold Fix Services Logo"
+                  alt="Gauteng Repair Network Logo"
                   width={48}
                   height={48}
                   className="object-cover"
@@ -94,7 +94,7 @@ export function Footer() {
             </Link>
 
             <p className="max-w-md text-sm leading-relaxed text-primary-foreground/80">
-              Cold Fix Services is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across Gauteng. Experienced technicians, same day callouts, quality workmanship every time.
+              Gauteng Repair Network is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across Gauteng. Experienced technicians, same day callouts, quality workmanship every time.
             </p>
 
             {/* Social Media Links */}
@@ -123,7 +123,7 @@ export function Footer() {
                 </a>
 
                 <a
-                  href="https://wa.me/27703096749"
+                  href="https://wa.me/27693824908"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10 text-primary-foreground/70 transition-all hover:bg-[#25D366] hover:text-white"
@@ -202,26 +202,26 @@ export function Footer() {
               </li>
 
               <li>
-                <a href="tel:+27703096749" className="group flex items-center gap-3">
+                <a href="tel:+27693824908" className="group flex items-center gap-3">
                   <Phone className="h-5 w-5 flex-shrink-0 text-accent" />
-                  <span className="text-sm text-primary-foreground/80 transition-colors group-hover:text-accent">+27 70 309 6749</span>
+                  <span className="text-sm text-primary-foreground/80 transition-colors group-hover:text-accent">+27 69 382 4908</span>
                 </a>
               </li>
 
               <li>
-                <a href="https://wa.me/27703096749" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3">
+                <a href="https://wa.me/27693824908" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3">
                   <WhatsAppIcon className="h-5 w-5 flex-shrink-0 text-accent" />
                   <span className="text-sm text-primary-foreground/80 transition-colors group-hover:text-accent">
-                    WhatsApp: +27 70 309 6749
+                    WhatsApp: +27 69 382 4908
                   </span>
                 </a>
               </li>
 
               <li>
-                <a href="mailto:info@coldfix.co.za" className="group flex items-center gap-3">
+                <a href="mailto:info@www.gautengrepairnetwork.co.za" className="group flex items-center gap-3">
                   <Mail className="h-5 w-5 flex-shrink-0 text-accent" />
                   <span className="text-sm text-primary-foreground/80 transition-colors group-hover:text-accent">
-                    info@coldfix.co.za
+                    info@www.gautengrepairnetwork.co.za
                   </span>
                 </a>
               </li>
@@ -250,7 +250,7 @@ export function Footer() {
                 {area.name}
               </Link>
             ))}
-            <Link href="/service-areas" className="rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-white hover:bg-accent/90">
+            <Link href="/areas" className="rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-white hover:bg-accent/90">
               View All Areas →
             </Link>
           </div>
@@ -259,7 +259,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/10 pt-8 md:flex-row">
           <p className="text-center text-sm text-primary-foreground/70 md:text-left">
-            © {new Date().getFullYear()} Cold Fix Services. All rights reserved.
+            © {new Date().getFullYear()} Gauteng Repair Network. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-6">
             <Link href="/privacy-policy" className="text-sm text-primary-foreground/70 transition-colors hover:text-accent">

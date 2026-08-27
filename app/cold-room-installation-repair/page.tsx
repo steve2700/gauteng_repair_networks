@@ -1,18 +1,18 @@
 // File path: app/cold-room-installation-repair/page.tsx
-// Clean URL: https://www.coldfix.co.za/cold-room-installation-repair
+// Clean URL: https://www.gautengrepairnetwork.co.za/cold-room-installation-repair
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Warehouse, Snowflake, Wrench, Clock, Award, ShieldCheck, Store, Refrigerator } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Cold Room Installation and Repair in Gauteng | Cold Fix Services",
+  title: "Cold Room Installation and Repair in Gauteng | Gauteng Repair Network",
   description:
     "Cold room installation, repair, and maintenance across Gauteng. We build and service walk in cold rooms and freezer rooms for restaurants, butcheries, and businesses. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
     "cold room installation Gauteng, cold room repair Johannesburg, walk in freezer room Pretoria, freezer room repair, cold room maintenance Midrand",
   openGraph: {
-    title: "Cold Room Installation and Repair | Cold Fix Services Gauteng",
+    title: "Cold Room Installation and Repair | Gauteng Repair Network Gauteng",
     description:
       "Professional cold room and freezer room installation, repair, and maintenance for businesses across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/cold-room-installation.png",
         width: 1200,
         height: 630,
-        alt: "Cold room installation and repair in Gauteng by Cold Fix Services",
+        alt: "Cold room installation and repair in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function ColdRoomPage() {
   return (
     <ServicePageTemplate
       title="Cold Room Installation and Repair"
-      description="Cold Fix Services designs, installs, repairs, and maintains walk in cold rooms and freezer rooms for restaurants, butcheries, retailers, and other businesses across Gauteng. From new installations to breakdown repairs and routine maintenance, our technicians keep your stock at the right temperature and your operation running."
+      description="Gauteng Repair Network designs, installs, repairs, and maintains walk in cold rooms and freezer rooms for restaurants, butcheries, retailers, and other businesses across Gauteng. From new installations to breakdown repairs and routine maintenance, our technicians keep your stock at the right temperature and your operation running."
       icon={Warehouse}
       heroImage="/cold-room-installation.png"
       priceRange="Free quotes"
@@ -138,7 +138,7 @@ export default function ColdRoomPage() {
             <h2 className="mb-8 text-3xl font-bold">Cold Rooms Built and Maintained for Gauteng Businesses</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Whether you run a restaurant, butchery, supermarket, or distribution business, your cold room is central to your operation. <strong>Cold Fix Services</strong> installs new cold rooms and freezer rooms, repairs failing units, and keeps existing rooms in top condition across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region.
+                Whether you run a restaurant, butchery, supermarket, or distribution business, your cold room is central to your operation. <strong>Gauteng Repair Network</strong> installs new cold rooms and freezer rooms, repairs failing units, and keeps existing rooms in top condition across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="p-6 rounded-xl bg-card border border-border">

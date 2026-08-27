@@ -1,18 +1,18 @@
 // File path: app/refrigeration-repairs/page.tsx
-// Clean URL: https://www.coldfix.co.za/refrigeration-repairs
+// Clean URL: https://www.gautengrepairnetwork.co.za/refrigeration-repairs
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Refrigerator, Snowflake, Wrench, Clock, Award, ShieldCheck, Store, Warehouse } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Refrigeration Repairs in Gauteng | Fridge and Freezer Repair | Cold Fix Services",
+  title: "Refrigeration Repairs in Gauteng | Fridge and Freezer Repair | Gauteng Repair Network",
   description:
     "Fast, reliable refrigeration repairs in Gauteng. We fix fridges, freezers, and chest freezers with cooling faults, gas leaks, thermostat and compressor problems. Serving Pretoria, Johannesburg and Midrand. Same day callouts available.",
   keywords:
     "refrigeration repairs Gauteng, fridge repair Johannesburg, freezer repair Pretoria, chest freezer repair, fridge not cooling, refrigeration technician Midrand",
   openGraph: {
-    title: "Refrigeration Repairs | Cold Fix Services Gauteng",
+    title: "Refrigeration Repairs | Gauteng Repair Network Gauteng",
     description:
       "Expert fridge and freezer repairs for homes and businesses across Gauteng. Same day callouts and honest pricing.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/refrigeration-repair-technician.png",
         width: 1200,
         height: 630,
-        alt: "Refrigeration repairs in Gauteng by Cold Fix Services",
+        alt: "Refrigeration repairs in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function RefrigerationRepairsPage() {
   return (
     <ServicePageTemplate
       title="Refrigeration Repairs"
-      description="When your fridge or freezer stops cooling, food and stock are on the line. Cold Fix Services provides fast, reliable refrigeration repairs for fridges, freezers, and chest freezers across Gauteng. Our refrigerant handling certified technicians diagnose cooling faults, gas leaks, thermostat problems, and compressor failures, then get your unit running again with quality parts and lasting repairs."
+      description="When your fridge or freezer stops cooling, food and stock are on the line. Gauteng Repair Network provides fast, reliable refrigeration repairs for fridges, freezers, and chest freezers across Gauteng. Our refrigerant handling certified technicians diagnose cooling faults, gas leaks, thermostat problems, and compressor failures, then get your unit running again with quality parts and lasting repairs."
       icon={Refrigerator}
       heroImage="/refrigeration-repair-technician.png"
       priceRange="Free quotes"
@@ -138,7 +138,7 @@ export default function RefrigerationRepairsPage() {
             <h2 className="mb-8 text-3xl font-bold">Reliable Fridge and Freezer Repairs Across Gauteng</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A fridge that is not cooling, a freezer building up ice, or a unit making strange noises are all signs that something needs attention. <strong>Cold Fix Services</strong> repairs household and small commercial refrigeration for clients throughout <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We carry common spares so most repairs can be completed on the first visit.
+                A fridge that is not cooling, a freezer building up ice, or a unit making strange noises are all signs that something needs attention. <strong>Gauteng Repair Network</strong> repairs household and small commercial refrigeration for clients throughout <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We carry common spares so most repairs can be completed on the first visit.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="p-6 rounded-xl bg-card border border-border">

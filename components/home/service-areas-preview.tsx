@@ -6,63 +6,63 @@ import { MapPin, ArrowRight, CheckCircle, Clock, Phone, Navigation } from "lucid
 const areas = [
   { 
     name: "Pretoria", 
-    href: "/service-areas/pretoria", 
+    href: "/areas/pretoria", 
     highlight: true, 
     suburbs: ["Centurion", "Montana", "Hatfield", "Silverton", "Brooklyn"],
     responseTime: "30 min"
   },
   {
     name: "Johannesburg",
-    href: "/service-areas/johannesburg",
+    href: "/areas/johannesburg",
     highlight: true,
     suburbs: ["Sandton", "Rosebank", "Fourways", "Randburg", "Roodepoort"],
     responseTime: "30 min"
   },
   { 
     name: "Midrand", 
-    href: "/service-areas/midrand", 
+    href: "/areas/midrand", 
     suburbs: ["Carlswald", "Halfway House", "Waterfall Estate"],
     responseTime: "20 min"
   },
   { 
     name: "Sandton", 
-    href: "/service-areas/sandton", 
+    href: "/areas/sandton", 
     suburbs: ["Morningside", "Rivonia", "Bryanston"],
     responseTime: "25 min"
   },
   { 
     name: "Centurion", 
-    href: "/service-areas/centurion", 
+    href: "/areas/centurion", 
     suburbs: ["Highveld", "Eldoraigne", "Irene"],
     responseTime: "25 min"
   },
   { 
     name: "Fourways", 
-    href: "/service-areas/fourways", 
+    href: "/areas/fourways", 
     suburbs: ["Lonehill", "Dainfern", "Cedar Lakes"],
     responseTime: "30 min"
   },
   { 
     name: "Randburg", 
-    href: "/service-areas/randburg", 
+    href: "/areas/randburg", 
     suburbs: ["Ferndale", "Blairgowrie", "Northcliff"],
     responseTime: "35 min"
   },
   { 
     name: "Bedfordview", 
-    href: "/service-areas/bedfordview", 
+    href: "/areas/bedfordview", 
     suburbs: ["Edenvale", "Germiston", "Kensington"],
     responseTime: "40 min"
   },
   { 
     name: "Rosebank", 
-    href: "/service-areas/rosebank", 
+    href: "/areas/rosebank", 
     suburbs: ["Parktown", "Saxonwold", "Melrose"],
     responseTime: "35 min"
   },
   { 
     name: "Roodepoort", 
-    href: "/service-areas/roodepoort", 
+    href: "/areas/roodepoort", 
     suburbs: ["Northgate", "Florida", "Constantia Kloof"],
     responseTime: "40 min"
   },
@@ -97,7 +97,7 @@ export function ServiceAreasPreview() {
       className="py-20 lg:py-28 overflow-hidden bg-gradient-to-b from-background to-muted/20 relative"
       itemScope
       itemType="https://schema.org/Service"
-      aria-labelledby="service-areas-heading"
+      aria-labelledby="areas-heading"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5" aria-hidden="true">
@@ -113,14 +113,14 @@ export function ServiceAreasPreview() {
               Service Coverage
             </span>
             <h2 
-              id="service-areas-heading"
+              id="areas-heading"
               className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl"
               itemProp="name"
             >
               Proudly Serving All of <span className="text-secondary">Gauteng Province</span>
             </h2>
             <p className="mb-6 text-pretty text-lg text-muted-foreground leading-relaxed" itemProp="description">
-              <strong>Cold Fix Services</strong> delivers appliance, air conditioning, and refrigeration repairs throughout Gauteng. Our teams are positioned to serve clients across <strong>Pretoria, Johannesburg</strong>, and all major suburbs with fast response times.
+              <strong>Gauteng Repair Network</strong> delivers appliance, air conditioning, and refrigeration repairs throughout Gauteng. Our teams are positioned to serve clients across <strong>Pretoria, Johannesburg</strong>, and all major suburbs with fast response times.
             </p>
 
             {/* Benefits List - Enhanced */}
@@ -185,7 +185,7 @@ export function ServiceAreasPreview() {
                 size="lg" 
                 className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg h-12 px-8 transition-transform hover:scale-105"
               >
-                <Link href="/service-areas">
+                <Link href="/areas">
                   View All Service Areas
                   <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                 </Link>
@@ -196,9 +196,9 @@ export function ServiceAreasPreview() {
                 variant="outline"
                 className="border-secondary/30 hover:bg-secondary/10 h-12 px-8 transition-transform hover:scale-105"
               >
-                <Link href="tel:+27703096749">
+                <Link href="tel:+27693824908">
                   <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
-                  Call: +27 70 309 6749
+                  Call: +27 69 382 4908
                 </Link>
               </Button>
             </div>
@@ -209,8 +209,8 @@ export function ServiceAreasPreview() {
             {/* Main Map */}
             <div className="relative overflow-hidden rounded-2xl border-2 border-border shadow-2xl ring-1 ring-black/5 transition-transform hover:scale-[1.02]">
               <Image
-                src="/gauteng-service-areas-map.webp"
-                alt="Cold Fix Services coverage map showing Gauteng province including Pretoria, Johannesburg, Midrand, Sandton, and Centurion areas"
+                src="/gauteng-areas-map.webp"
+                alt="Gauteng Repair Network coverage map showing Gauteng province including Pretoria, Johannesburg, Midrand, Sandton, and Centurion areas"
                 width={800}
                 height={600}
                 className="w-full"

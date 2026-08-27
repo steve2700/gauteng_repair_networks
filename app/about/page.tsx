@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button"
 import { Target, Eye, CheckCircle, Users, Shield, Award, Leaf, Handshake, ArrowRight, Phone, Star, Snowflake, Clock } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "About Cold Fix Services | Air Conditioning and Refrigeration Experts in Gauteng",
+  title: "About Gauteng Repair Network | Air Conditioning and Refrigeration Experts in Gauteng",
   description:
-    "Learn about Cold Fix Services, the trusted name in Gauteng for air conditioning, refrigeration, and appliance repairs. Over 10 years serving Pretoria, Johannesburg, and Midrand.",
+    "Learn about Gauteng Repair Network, the trusted name in Gauteng for air conditioning, refrigeration, and appliance repairs. Over 10 years serving Pretoria, Johannesburg, and Midrand.",
   keywords:
-    "about Cold Fix Services, air conditioning company Gauteng, refrigeration technicians Pretoria, appliance repairs Johannesburg, company history, mission vision values",
+    "about Gauteng Repair Network, air conditioning company Gauteng, refrigeration technicians Pretoria, appliance repairs Johannesburg, company history, mission vision values",
   openGraph: {
-    title: "About Cold Fix Services | Air Conditioning and Refrigeration Experts in Gauteng",
+    title: "About Gauteng Repair Network | Air Conditioning and Refrigeration Experts in Gauteng",
     description:
       "The trusted cooling partner in Gauteng. Certified technicians delivering air conditioning, refrigeration, and appliance repairs in Pretoria, Johannesburg, and Midrand.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/cold-fix-technician-team-in-gauteng.png",
         width: 1200,
         height: 630,
-        alt: "Cold Fix Services technician team in Gauteng",
+        alt: "Gauteng Repair Network technician team in Gauteng",
       },
     ],
   },
@@ -93,11 +93,11 @@ export default function AboutPage() {
             </div>
 
             <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">
-              About <span className="text-accent">Cold Fix Services</span>
+              About <span className="text-accent">Gauteng Repair Network</span>
             </h1>
             <p className="text-pretty text-lg text-primary-foreground/90 md:text-xl leading-relaxed">
               Founded with the goal to keep homes and businesses cool, comfortable, and running, {" "}
-              <strong className="text-white">Cold Fix Services</strong> has become a trusted partner for residential, commercial, and industrial clients across{" "}
+              <strong className="text-white">Gauteng Repair Network</strong> has become a trusted partner for residential, commercial, and industrial clients across{" "}
               <strong className="text-white">Pretoria, Johannesburg, and Midrand</strong>.
             </p>
 
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 Your Trusted Partner for Cooling and Appliances in Gauteng
               </h2>
               <p className="mb-4 text-muted-foreground leading-relaxed" itemProp="description">
-                <strong>Cold Fix Services</strong> is a proudly South African company delivering air conditioning, refrigeration repairs, cold room installation, commercial refrigeration, appliance repairs, and maintenance contracts for clients in{" "}
+                <strong>Gauteng Repair Network</strong> is a proudly South African company delivering air conditioning, refrigeration repairs, cold room installation, commercial refrigeration, appliance repairs, and maintenance contracts for clients in{" "}
                 <strong>Gauteng</strong>, including <strong>Pretoria, Johannesburg, and Midrand</strong>.
               </p>
               <p className="mb-6 text-muted-foreground leading-relaxed">
@@ -161,7 +161,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
                 <Image
                   src="/cold-fix-technician-team-in-gauteng.png"
-                  alt="Cold Fix Services technicians preparing for air conditioning and refrigeration work in Gauteng, South Africa"
+                  alt="Gauteng Repair Network technicians preparing for air conditioning and refrigeration work in Gauteng, South Africa"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
                   loading="eager"
@@ -262,7 +262,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
                 <Image
                   src="/cold-fix-technicians-servicing-air-conditioner.png"
-                  alt="Cold Fix Services technicians servicing an air conditioning unit in Gauteng"
+                  alt="Gauteng Repair Network technicians servicing an air conditioning unit in Gauteng"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
                   loading="lazy"
@@ -368,7 +368,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 lg:px-8 relative">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-6 text-balance text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-              Ready to Work with <span className="text-accent">Cold Fix Services?</span>
+              Ready to Work with <span className="text-accent">Gauteng Repair Network?</span>
             </h2>
             <p className="mb-8 text-lg text-primary-foreground/90 leading-relaxed">
               Contact us today to discuss your air conditioning, refrigeration, or appliance repair needs. We are here to provide expert guidance, transparent quotes, and lasting solutions.
@@ -382,7 +382,7 @@ export default function AboutPage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm h-14 px-8 text-base font-semibold transition-transform hover:scale-105">
-                <Link href="tel:+27703096749">Call: +27 70 309 6749</Link>
+                <Link href="tel:+27693824908">Call: +27 69 382 4908</Link>
               </Button>
             </div>
 

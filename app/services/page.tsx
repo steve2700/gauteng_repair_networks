@@ -1,5 +1,5 @@
 // File path: app/services/page.tsx
-// URL: https://www.coldfix.co.za/services
+// URL: https://www.gautengrepairnetwork.co.za/services
 
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -29,13 +29,13 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Our Services | Air Conditioning, Refrigeration and Appliance Repairs in Gauteng | Cold Fix Services",
+  title: "Our Services | Air Conditioning, Refrigeration and Appliance Repairs in Gauteng | Gauteng Repair Network",
   description:
-    "Explore Cold Fix Services: air conditioning, refrigeration repairs, cold rooms, commercial refrigeration, appliance repairs, HVAC maintenance, and emergency callouts across Pretoria, Johannesburg and Midrand.",
+    "Explore Gauteng Repair Network: air conditioning, refrigeration repairs, cold rooms, commercial refrigeration, appliance repairs, HVAC maintenance, and emergency callouts across Pretoria, Johannesburg and Midrand.",
   keywords:
     "air conditioning Gauteng, refrigeration repairs Pretoria, appliance repairs Johannesburg, cold room installation, commercial refrigeration, HVAC maintenance Midrand",
   openGraph: {
-    title: "Our Services | Cold Fix Services Gauteng",
+    title: "Our Services | Gauteng Repair Network Gauteng",
     description:
       "Professional air conditioning, refrigeration, and appliance repair services for Pretoria, Johannesburg and the wider Gauteng region.",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Cold Fix Services air conditioning and refrigeration technicians in Gauteng",
+        alt: "Gauteng Repair Network air conditioning and refrigeration technicians in Gauteng",
       },
     ],
   },
@@ -199,7 +199,7 @@ export default function ServicesPage() {
               <span className="text-accent">10</span> Professional Services <br />Across Gauteng
             </h1>
             <p className="text-pretty text-lg text-primary-foreground/90 md:text-xl leading-relaxed mb-8">
-              <strong className="text-white">Cold Fix Services</strong> keeps your home and business cool and running. From air conditioning and refrigeration to appliance repairs and maintenance contracts, we serve{" "}
+              <strong className="text-white">Gauteng Repair Network</strong> keeps your home and business cool and running. From air conditioning and refrigeration to appliance repairs and maintenance contracts, we serve{" "}
               <strong className="text-white">Pretoria, Johannesburg, Midrand</strong>, and the greater Gauteng region.
             </p>
 
@@ -306,7 +306,7 @@ export default function ServicesPage() {
               All services available across Pretoria, Johannesburg, Midrand, Sandton, Centurion, and many more areas in the Gauteng province
             </p>
             <Button asChild variant="outline" size="lg" className="border-secondary/30 hover:bg-secondary/10">
-              <Link href="/service-areas">
+              <Link href="/areas">
                 View Service Areas
                 <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Link>
@@ -324,7 +324,7 @@ export default function ServicesPage() {
                 Why Choose Us
               </span>
               <h2 className="text-3xl font-bold mb-6 md:text-4xl">
-                The <span className="text-secondary">Cold Fix Services</span> Advantage
+                The <span className="text-secondary">Gauteng Repair Network</span> Advantage
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 With over <strong>10 years of experience</strong> and hundreds of satisfied clients, we have become the trusted name in Gauteng for air conditioning, refrigeration, and appliance care.
@@ -371,7 +371,7 @@ export default function ServicesPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
                 <Image
                   src="/cold-fix-technician-team-in-gauteng.png"
-                  alt="Cold Fix Services technicians ready for air conditioning and refrigeration work in Gauteng"
+                  alt="Gauteng Repair Network technicians ready for air conditioning and refrigeration work in Gauteng"
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -414,7 +414,7 @@ export default function ServicesPage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm h-14 px-8 text-base font-semibold">
-                <Link href="tel:+27703096749">Call: +27 70 309 6749</Link>
+                <Link href="tel:+27693824908">Call: +27 69 382 4908</Link>
               </Button>
             </div>
 

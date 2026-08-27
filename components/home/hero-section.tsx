@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/air-conditioning-service-gauteng.png"
-          alt="Professional appliance and refrigeration technician at work in Gauteng, Cold Fix Services aircon installation in Pretoria and Johannesburg"
+          alt="Professional appliance and refrigeration technician at work in Gauteng, Gauteng Repair Network aircon installation in Pretoria and Johannesburg"
           fill
           className="object-cover opacity-20"
           priority
@@ -60,7 +60,7 @@ export function HeroSection() {
 
             {/* Description */}
             <p className="mb-6 sm:mb-8 text-pretty text-base sm:text-lg text-primary-foreground/80 md:text-xl max-w-2xl mx-auto lg:mx-0" itemProp="description">
-              <strong className="text-white">Cold Fix Services</strong> is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across{" "}
+              <strong className="text-white">Gauteng Repair Network</strong> is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across{" "}
               <strong className="text-white">Pretoria, Johannesburg, Midrand</strong> and greater{" "}
               <strong className="text-white">Gauteng</strong>. Experienced technicians, same day callouts.
             </p>
@@ -82,7 +82,7 @@ export function HeroSection() {
                 size="lg"
                 className="group h-12 sm:h-14 px-6 sm:px-8 text-sm sm:text-base font-semibold bg-[#25D366] text-white hover:bg-[#25D366]/90 shadow-xl shadow-[#25D366]/25 transition-all hover:scale-105"
               >
-                <a href="https://wa.me/27703096749" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/27693824908" target="_blank" rel="noopener noreferrer">
                   <WhatsAppIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" />
                   Chat on WhatsApp
                 </a>
@@ -141,7 +141,7 @@ export function HeroSection() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10 transition-transform hover:scale-[1.02]">
                 <Image
                   src="/cold-fix-technicians-servicing-air-conditioner.png"
-                  alt="Cold Fix Services technician servicing an air conditioning unit in Gauteng"
+                  alt="Gauteng Repair Network technician servicing an air conditioning unit in Gauteng"
                   fill
                   className="object-cover"
                   priority
@@ -155,7 +155,7 @@ export function HeroSection() {
               <div className="absolute -bottom-8 -left-8 aspect-square w-48 overflow-hidden rounded-2xl border-4 border-background shadow-xl ring-1 ring-white/10 transition-transform hover:scale-105">
                 <Image
                   src="/property-maintenance-worker-fixing-repairs-profess.jpg"
-                  alt="Cold Fix Services technician repairing an appliance in Gauteng"
+                  alt="Gauteng Repair Network technician repairing an appliance in Gauteng"
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -211,7 +211,7 @@ export function HeroSection() {
       </div>
 
       {/* Hidden Structured Data for SEO */}
-      <meta itemProp="provider" content="Cold Fix Services" />
+      <meta itemProp="provider" content="Gauteng Repair Network" />
       <meta itemProp="areaServed" content="Gauteng, Pretoria, Johannesburg, Midrand, Sandton, Centurion, Randburg" />
       <meta itemProp="serviceType" content="Appliance Repair, Air Conditioning, Refrigeration, Cold Room Installation" />
     </section>

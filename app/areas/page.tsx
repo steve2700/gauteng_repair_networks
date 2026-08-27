@@ -7,20 +7,20 @@ import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Phone, ArrowRight, CheckCircle, Clock, Navigation, Star, Award, Wind, Refrigerator, WashingMachine } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Service Areas | Cold Fix Services - Pretoria, Johannesburg, Midrand & All Gauteng",
+  title: "Service Areas | Gauteng Repair Network - Pretoria, Johannesburg, Midrand & All Gauteng",
   description:
-    "Cold Fix Services provides appliance, air conditioning, and refrigeration repairs throughout Gauteng including Pretoria, Johannesburg, Sandton, Centurion, Midrand, Fourways, and 10 major areas. Same day quotes and 24 hour emergency support.",
+    "Gauteng Repair Network provides appliance, air conditioning, and refrigeration repairs throughout Gauteng including Pretoria, Johannesburg, Sandton, Centurion, Midrand, Fourways, and 10 major areas. Same day quotes and 24 hour emergency support.",
   keywords: "service areas Gauteng, fridge repair Pretoria, aircon repair Johannesburg, appliance repairs Midrand, Sandton refrigeration, Centurion aircon, Fourways appliance repair",
   openGraph: {
-    title: "Service Areas | Cold Fix Services Serving All Gauteng",
+    title: "Service Areas | Gauteng Repair Network Serving All Gauteng",
     description:
       "Appliance, air conditioning, and refrigeration repairs across all major areas in Gauteng province. Same day callouts, free quotes, and 24 hour emergency support.",
     images: [
       {
-        url: "/gauteng-service-areas-map.webp",
+        url: "/gauteng-areas-map.webp",
         width: 1200,
         height: 630,
-        alt: "Cold Fix Services service areas map, Gauteng Province",
+        alt: "Gauteng Repair Network service areas map, Gauteng Province",
       },
     ],
   },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const serviceAreas = [
   {
     name: "Pretoria",
-    href: "/service-areas/pretoria",
+    href: "/areas/pretoria",
     description:
       "Appliance, air conditioning, and refrigeration repairs throughout Pretoria and surrounding suburbs including Montana, Hatfield, Menlyn, Brooklyn, and Centurion.",
     suburbs: ["Montana", "Hatfield", "Menlyn", "Brooklyn", "Waterkloof", "Centurion", "Lynnwood", "Silverton"],
@@ -39,7 +39,7 @@ const serviceAreas = [
   },
   {
     name: "Johannesburg",
-    href: "/service-areas/johannesburg",
+    href: "/areas/johannesburg",
     description:
       "Full service appliance, aircon, and refrigeration repairs across Johannesburg including Sandton, Rosebank, Fourways, Randburg, and the CBD.",
     suburbs: ["Sandton", "Rosebank", "Fourways", "Randburg", "Parktown", "CBD", "Melrose", "Houghton"],
@@ -49,7 +49,7 @@ const serviceAreas = [
   },
   {
     name: "Midrand",
-    href: "/service-areas/midrand",
+    href: "/areas/midrand",
     description:
       "Reliable appliance, aircon, and refrigeration repairs in Carlswald, Halfway House, and surrounding areas.",
     suburbs: ["Carlswald", "Halfway House", "Vorna Valley", "Glen Austin", "Waterfall Estate"],
@@ -59,7 +59,7 @@ const serviceAreas = [
   },
   {
     name: "Sandton",
-    href: "/service-areas/sandton",
+    href: "/areas/sandton",
     description:
       "Trusted appliance and refrigeration repairs for residential and commercial properties in Sandton, Morningside, Rivonia, and Sunninghill.",
     suburbs: ["Morningside", "Rivonia", "Sunninghill", "Bryanston", "Hyde Park"],
@@ -68,7 +68,7 @@ const serviceAreas = [
   },
   {
     name: "Centurion",
-    href: "/service-areas/centurion",
+    href: "/areas/centurion",
     description:
       "Expert appliance, aircon, and refrigeration repair solutions throughout Centurion including Highveld, Eldoraigne, and Irene.",
     suburbs: ["Highveld", "Eldoraigne", "Irene", "Wierdapark", "Zwartkop"],
@@ -77,7 +77,7 @@ const serviceAreas = [
   },
   {
     name: "Fourways",
-    href: "/service-areas/fourways",
+    href: "/areas/fourways",
     description:
       "Professional appliance and refrigeration repair services in Fourways, Lonehill, Dainfern, and the northern suburbs of Johannesburg.",
     suburbs: ["Lonehill", "Dainfern", "Broadacres", "Cedar Lakes"],
@@ -86,7 +86,7 @@ const serviceAreas = [
   },
   {
     name: "Randburg",
-    href: "/service-areas/randburg",
+    href: "/areas/randburg",
     description:
       "Quality appliance and refrigeration repairs for residential and commercial properties in Randburg, Ferndale, and Blairgowrie.",
     suburbs: ["Ferndale", "Blairgowrie", "Northcliff", "Boskruin"],
@@ -95,7 +95,7 @@ const serviceAreas = [
   },
   {
     name: "Bedfordview",
-    href: "/service-areas/bedfordview",
+    href: "/areas/bedfordview",
     description: "Comprehensive appliance and refrigeration repair services in Bedfordview, Edenvale, Germiston, and the East Rand suburbs.",
     suburbs: ["Edenvale", "Germiston", "Kensington", "Kempton Park"],
     responseTime: "40 min",
@@ -103,7 +103,7 @@ const serviceAreas = [
   },
   {
     name: "Rosebank",
-    href: "/service-areas/rosebank",
+    href: "/areas/rosebank",
     description:
       "Trusted appliance and refrigeration repairs in Rosebank, Parktown, Saxonwold, and the northern Johannesburg suburbs.",
     suburbs: ["Parktown", "Saxonwold", "Dunkeld", "Forest Town"],
@@ -112,7 +112,7 @@ const serviceAreas = [
   },
   {
     name: "Roodepoort",
-    href: "/service-areas/roodepoort",
+    href: "/areas/roodepoort",
     description:
       "Expert appliance and refrigeration repairs in Roodepoort, Florida, Constantia Kloof, and western Johannesburg suburbs.",
     suburbs: ["Northgate", "Florida", "Constantia Kloof", "Wilropark"],
@@ -175,8 +175,8 @@ export default function ServiceAreasPage() {
       <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-primary/90 py-16 lg:py-24">
         <div className="absolute inset-0">
           <Image
-            src="/gauteng-service-areas-map.webp"
-            alt="Cold Fix Services coverage map of Gauteng Province including Pretoria, Johannesburg, and Midrand"
+            src="/gauteng-areas-map.webp"
+            alt="Gauteng Repair Network coverage map of Gauteng Province including Pretoria, Johannesburg, and Midrand"
             fill
             className="object-cover opacity-10"
             priority
@@ -209,7 +209,7 @@ export default function ServiceAreasPage() {
               Appliance, Aircon &amp; Refrigeration Repairs Across <span className="text-accent">Pretoria, Johannesburg &amp; All Gauteng</span>
             </h1>
             <p className="text-pretty text-lg text-primary-foreground/90 md:text-xl leading-relaxed mb-8">
-              <strong className="text-white">Cold Fix Services</strong> delivers expert appliance, air conditioning, and refrigeration repairs throughout
+              <strong className="text-white">Gauteng Repair Network</strong> delivers expert appliance, air conditioning, and refrigeration repairs throughout
               Gauteng province. Our technicians are positioned to reach you fast, with <strong className="text-white">same day callouts</strong> and exceptional service
               quality across all major areas.
             </p>
@@ -391,8 +391,8 @@ export default function ServiceAreasPage() {
                   </Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-secondary/30 hover:bg-secondary/10 transition-transform hover:scale-105">
-                  <Link href="tel:+27703096749">
-                    Call: +27 70 309 6749
+                  <Link href="tel:+27693824908">
+                    Call: +27 69 382 4908
                   </Link>
                 </Button>
               </div>
@@ -401,8 +401,8 @@ export default function ServiceAreasPage() {
             <div className="relative">
               <div className="relative aspect-square overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
                 <Image
-                  src="/gauteng-service-areas-map.webp"
-                  alt="Detailed Cold Fix Services coverage map showing all service areas across Gauteng Province"
+                  src="/gauteng-areas-map.webp"
+                  alt="Detailed Gauteng Repair Network coverage map showing all service areas across Gauteng Province"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
                   loading="lazy"
@@ -418,7 +418,7 @@ export default function ServiceAreasPage() {
                       <div className="absolute inset-0 h-6 w-6 animate-ping rounded-full bg-accent opacity-75" />
                     </div>
                     <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap bg-accent text-white px-3 py-1 rounded-lg text-xs font-bold shadow-lg">
-                      Cold Fix Services
+                      Gauteng Repair Network
                     </div>
                   </div>
                 </div>

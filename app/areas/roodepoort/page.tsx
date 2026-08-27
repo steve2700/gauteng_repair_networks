@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Roodepoort | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Roodepoort | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs in Roodepoort. Serving Wilgeheuwel, Honeydew, Constantia Kloof, Ruimsig, Florida and surrounding suburbs. Same day callouts available.",
   keywords:
     "air conditioning Roodepoort, fridge repairs Roodepoort, appliance repairs Wilgeheuwel, refrigeration Honeydew, aircon repairs Constantia Kloof",
   openGraph: {
-    title: "Appliance, Aircon and Refrigeration Repairs in Roodepoort | Cold Fix Services",
+    title: "Appliance, Aircon and Refrigeration Repairs in Roodepoort | Gauteng Repair Network",
     description:
       "Reliable air conditioning, refrigeration, and appliance repairs for Roodepoort homes and businesses.",
     images: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "/appliance_repairs.jpg",
         width: 1200,
         height: 630,
-        alt: "Professional appliance and refrigeration repairs in Roodepoort by Cold Fix Services",
+        alt: "Professional appliance and refrigeration repairs in Roodepoort by Gauteng Repair Network",
       },
     ],
   },
@@ -26,7 +26,7 @@ export default function RoodepoortPage() {
   return (
     <ServiceAreaTemplate
       areaName="Roodepoort"
-      description="Cold Fix Services provides air conditioning, refrigeration, and appliance repairs throughout Roodepoort and its surrounding suburbs. From family homes to shops, offices, and industrial units, we keep your cooling and appliances running with honest pricing and professional service."
+      description="Gauteng Repair Network provides air conditioning, refrigeration, and appliance repairs throughout Roodepoort and its surrounding suburbs. From family homes to shops, offices, and industrial units, we keep your cooling and appliances running with honest pricing and professional service."
       introImage="/appliance_repairs.jpg"
       suburbs={[
         "Wilgeheuwel",
@@ -42,7 +42,7 @@ export default function RoodepoortPage() {
         "Laser Park",
         "Quellerina",
       ]}
-      introduction="Roodepoort covers a broad mix of residential suburbs, commercial districts, and industrial areas, and all of them rely on working fridges, freezers, air conditioners, and appliances. Cold Fix Services serves Roodepoort homeowners and businesses with fast, reliable repairs and installations. Whether you are in the estates of Ruimsig, the established neighbourhoods of Constantia Kloof, or the commercial hubs of Radiokop, our technicians deliver quality work you can trust."
+      introduction="Roodepoort covers a broad mix of residential suburbs, commercial districts, and industrial areas, and all of them rely on working fridges, freezers, air conditioners, and appliances. Gauteng Repair Network serves Roodepoort homeowners and businesses with fast, reliable repairs and installations. Whether you are in the estates of Ruimsig, the established neighbourhoods of Constantia Kloof, or the commercial hubs of Radiokop, our technicians deliver quality work you can trust."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -66,11 +66,11 @@ export default function RoodepoortPage() {
         "24 hour emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
-        { name: "Randburg", href: "/service-areas/randburg" },
-        { name: "Fourways", href: "/service-areas/fourways" },
-        { name: "Johannesburg", href: "/service-areas/johannesburg" },
-        { name: "Sandton", href: "/service-areas/sandton" },
-        { name: "Midrand", href: "/service-areas/midrand" },
+        { name: "Randburg", href: "/areas/randburg" },
+        { name: "Fourways", href: "/areas/fourways" },
+        { name: "Johannesburg", href: "/areas/johannesburg" },
+        { name: "Sandton", href: "/areas/sandton" },
+        { name: "Midrand", href: "/areas/midrand" },
       ]}
     >
       <section className="py-16 lg:py-24 bg-muted">
@@ -83,7 +83,7 @@ export default function RoodepoortPage() {
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Roodepoort combines residential neighbourhoods, commercial developments, and industrial zones, and each
-                one has its own cooling and appliance needs. Cold Fix Services brings hands on experience to every job,
+                one has its own cooling and appliance needs. Gauteng Repair Network brings hands on experience to every job,
                 whether you are repairing a fridge in a family home in Wilgeheuwel, servicing air conditioning in a
                 commercial building in Radiokop, or maintaining refrigeration for a business in Laser Park.
               </p>

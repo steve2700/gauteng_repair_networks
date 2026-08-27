@@ -1,18 +1,18 @@
 // File path: app/commercial-refrigeration/page.tsx
-// Clean URL: https://www.coldfix.co.za/commercial-refrigeration
+// Clean URL: https://www.gautengrepairnetwork.co.za/commercial-refrigeration
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Store, Snowflake, Wrench, Clock, Award, ShieldCheck, Warehouse, Refrigerator } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Commercial Refrigeration in Gauteng | Display Fridges and Freezers | Cold Fix Services",
+  title: "Commercial Refrigeration in Gauteng | Display Fridges and Freezers | Gauteng Repair Network",
   description:
     "Commercial refrigeration repair and maintenance across Gauteng. We service display fridges, under counter units, bottle coolers, ice machines, and deli cabinets for shops and restaurants. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
     "commercial refrigeration Gauteng, display fridge repair Johannesburg, bottle cooler repair Pretoria, ice machine repair, deli fridge repair Midrand",
   openGraph: {
-    title: "Commercial Refrigeration | Cold Fix Services Gauteng",
+    title: "Commercial Refrigeration | Gauteng Repair Network Gauteng",
     description:
       "Repair and maintenance for display fridges, coolers, ice machines, and commercial units across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/commercial-refrigeration-display.png",
         width: 1200,
         height: 630,
-        alt: "Commercial refrigeration service in Gauteng by Cold Fix Services",
+        alt: "Commercial refrigeration service in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function CommercialRefrigerationPage() {
   return (
     <ServicePageTemplate
       title="Commercial Refrigeration"
-      description="Cold Fix Services keeps commercial refrigeration running for shops, restaurants, bars, and supermarkets across Gauteng. We repair and maintain display fridges, under counter units, bottle coolers, deli cabinets, ice machines, and more, helping you protect stock, meet food safety standards, and avoid costly downtime."
+      description="Gauteng Repair Network keeps commercial refrigeration running for shops, restaurants, bars, and supermarkets across Gauteng. We repair and maintain display fridges, under counter units, bottle coolers, deli cabinets, ice machines, and more, helping you protect stock, meet food safety standards, and avoid costly downtime."
       icon={Store}
       heroImage="/commercial-refrigeration-display.png"
       priceRange="Free quotes"
@@ -138,7 +138,7 @@ export default function CommercialRefrigerationPage() {
             <h2 className="mb-8 text-3xl font-bold">Commercial Refrigeration You Can Rely On</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Downtime on commercial refrigeration means lost stock and lost sales. <strong>Cold Fix Services</strong> repairs and maintains the fridges, freezers, coolers, and ice machines that keep shops and restaurants running across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We work around your trading hours wherever possible to limit disruption.
+                Downtime on commercial refrigeration means lost stock and lost sales. <strong>Gauteng Repair Network</strong> repairs and maintains the fridges, freezers, coolers, and ice machines that keep shops and restaurants running across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We work around your trading hours wherever possible to limit disruption.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="p-6 rounded-xl bg-card border border-border">

@@ -1,18 +1,18 @@
 // File path: app/electrical-services/page.tsx
-// Clean URL: https://www.coldfix.co.za/electrical-services
+// Clean URL: https://www.gautengrepairnetwork.co.za/electrical-services
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Zap, Shield, Award, Lightbulb, Battery, CheckCircle, Wind, Refrigerator, WashingMachine, Wrench } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Electrical Services for Appliance and Aircon Installs in Gauteng | Cold Fix Services",
+  title: "Electrical Services for Appliance and Aircon Installs in Gauteng | Gauteng Repair Network",
   description:
     "Safe electrical connections, wiring, and fault finding for appliance, air conditioning, and refrigeration installations across Gauteng. Serving Pretoria, Johannesburg and Midrand. Same day quotes available.",
   keywords:
     "electrician Gauteng, appliance wiring Pretoria, aircon power connection Johannesburg, electrical fault finding Midrand, isolator installation, dedicated circuit",
   openGraph: {
-    title: "Electrical Services | Cold Fix Services Gauteng",
+    title: "Electrical Services | Gauteng Repair Network Gauteng",
     description:
       "Wiring, fault finding, and safe power connections for appliance and air conditioning installations across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/electrician-working-on-electrical-panel-in-gauteng.jpg",
         width: 1200,
         height: 630,
-        alt: "Electrical connections for appliance and aircon installs in Gauteng by Cold Fix Services",
+        alt: "Electrical connections for appliance and aircon installs in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function ElectricalServicesPage() {
   return (
     <ServicePageTemplate
       title="Electrical Services"
-      description="Every appliance, air conditioner, and cold room needs a safe, reliable power supply. Cold Fix Services provides the electrical work that supports our installations, including wiring, fault finding, dedicated circuits, isolators, and safe power connections. Our team makes sure your equipment is connected correctly, safely, and to standard across Gauteng."
+      description="Every appliance, air conditioner, and cold room needs a safe, reliable power supply. Gauteng Repair Network provides the electrical work that supports our installations, including wiring, fault finding, dedicated circuits, isolators, and safe power connections. Our team makes sure your equipment is connected correctly, safely, and to standard across Gauteng."
       icon={Zap}
       heroImage="/electrician-working-on-electrical-panel-in-gauteng.jpg"
       priceRange="Free quotes"
@@ -140,7 +140,7 @@ export default function ElectricalServicesPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A new air conditioner, cold room, or major appliance is only as reliable as the power supply behind it. <strong>Cold Fix Services</strong> provides the electrical work that goes hand in hand with our cooling and appliance installations across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. From dedicated circuits and isolators to fault finding on equipment that keeps tripping, our qualified electricians make sure everything is connected safely and correctly.
+                A new air conditioner, cold room, or major appliance is only as reliable as the power supply behind it. <strong>Gauteng Repair Network</strong> provides the electrical work that goes hand in hand with our cooling and appliance installations across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. From dedicated circuits and isolators to fault finding on equipment that keeps tripping, our qualified electricians make sure everything is connected safely and correctly.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -176,7 +176,7 @@ export default function ElectricalServicesPage() {
                   Need a Safe Power Connection?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Whether you are installing a new air conditioner or tracing a fault that keeps tripping your power, our team can help. Call us on <strong className="text-secondary">+27 70 309 6749</strong> for a free quote across Gauteng.
+                  Whether you are installing a new air conditioner or tracing a fault that keeps tripping your power, our team can help. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for a free quote across Gauteng.
                 </p>
               </div>
             </div>

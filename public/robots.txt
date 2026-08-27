@@ -1,5 +1,5 @@
-# robots.txt for Cold Fix Services
-# https://www.coldfix.co.za/robots.txt
+# robots.txt for Gauteng Repair Network
+# https://www.gautengrepairnetwork.co.za/robots.txt
 
 # Allow all bots to crawl everything
 User-agent: *
@@ -9,10 +9,10 @@ Allow: /
 Crawl-delay: 0
 
 # Sitemap locations
-Sitemap: https://www.coldfix.co.za/sitemap.xml
+Sitemap: https://www.gautengrepairnetwork.co.za/sitemap.xml
 
 # Host preference (helps with canonicalization)
-Host: https://www.coldfix.co.za
+Host: https://www.gautengrepairnetwork.co.za
 
 # ===== Bot-Specific Rules =====
 

@@ -2,11 +2,11 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Johannesburg | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Johannesburg | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs across Johannesburg. Serving Sandton, Rosebank, Fourways, Randburg, Bryanston and all JHB suburbs. Same day callouts available.",
   openGraph: {
-    title: "Appliance, Aircon and Refrigeration Repairs in Johannesburg | Cold Fix Services",
+    title: "Appliance, Aircon and Refrigeration Repairs in Johannesburg | Gauteng Repair Network",
     description:
       "Reliable air conditioning, refrigeration, and appliance repairs for Johannesburg homes and businesses.",
   },
@@ -16,7 +16,7 @@ export default function JohannesburgPage() {
   return (
     <ServiceAreaTemplate
       areaName="Johannesburg"
-      description="Cold Fix Services delivers air conditioning, refrigeration, and appliance repairs throughout Johannesburg. From homes in the northern suburbs to shops, offices, and restaurants in the city, we keep your cooling and appliances running with fast, professional service."
+      description="Gauteng Repair Network delivers air conditioning, refrigeration, and appliance repairs throughout Johannesburg. From homes in the northern suburbs to shops, offices, and restaurants in the city, we keep your cooling and appliances running with fast, professional service."
       introImage="/commercial-refrigeration-display.png"
       suburbs={[
         "Sandton",
@@ -35,7 +35,7 @@ export default function JohannesburgPage() {
         "Parkhurst",
         "Illovo",
       ]}
-      introduction="Johannesburg is a fast moving city where a broken fridge, cold room, or air conditioner can quickly become a real problem for a home or business. Cold Fix Services has built a strong reputation across Johannesburg, helping households, shops, offices, and restaurants keep their cooling and appliances working. With one trusted team for aircon, refrigeration, and appliance repairs, you only need to make one call."
+      introduction="Johannesburg is a fast moving city where a broken fridge, cold room, or air conditioner can quickly become a real problem for a home or business. Gauteng Repair Network has built a strong reputation across Johannesburg, helping households, shops, offices, and restaurants keep their cooling and appliances working. With one trusted team for aircon, refrigeration, and appliance repairs, you only need to make one call."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -59,12 +59,12 @@ export default function JohannesburgPage() {
         "Quality parts and lasting repairs on every job",
       ]}
       nearbyAreas={[
-        { name: "Sandton", href: "/service-areas/sandton" },
-        { name: "Randburg", href: "/service-areas/randburg" },
-        { name: "Fourways", href: "/service-areas/fourways" },
-        { name: "Rosebank", href: "/service-areas/rosebank" },
-        { name: "Bedfordview", href: "/service-areas/bedfordview" },
-        { name: "Midrand", href: "/service-areas/midrand" },
+        { name: "Sandton", href: "/areas/sandton" },
+        { name: "Randburg", href: "/areas/randburg" },
+        { name: "Fourways", href: "/areas/fourways" },
+        { name: "Rosebank", href: "/areas/rosebank" },
+        { name: "Bedfordview", href: "/areas/bedfordview" },
+        { name: "Midrand", href: "/areas/midrand" },
       ]}
     />
   )

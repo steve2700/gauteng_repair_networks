@@ -114,8 +114,8 @@ export function ServicePageTemplate({
                   variant="outline"
                   className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm h-14 px-8 text-base font-semibold transition-transform hover:scale-105"
                 >
-                  <Link href="tel:+27703096749">
-                    Call: +27 70 309 6749
+                  <Link href="tel:+27693824908">
+                    Call: +27 69 382 4908
                   </Link>
                 </Button>
               </div>
@@ -126,7 +126,7 @@ export function ServicePageTemplate({
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10">
                 <Image
                   src={heroImage || "/placeholder.svg"}
-                  alt={`Professional ${title} in Gauteng by Cold Fix Services`}
+                  alt={`Professional ${title} in Gauteng by Gauteng Repair Network`}
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
                   priority
@@ -170,7 +170,7 @@ export function ServicePageTemplate({
                 Our <span className="text-secondary">{title}</span> Services
               </h2>
               <p className="mb-8 text-muted-foreground text-lg leading-relaxed">
-                <strong>Cold Fix Services</strong> provides reliable {title.toLowerCase()} for homes and businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider <strong>Gauteng</strong> region.
+                <strong>Gauteng Repair Network</strong> provides reliable {title.toLowerCase()} for homes and businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider <strong>Gauteng</strong> region.
               </p>
               
               <ul className="grid gap-4">
@@ -193,7 +193,7 @@ export function ServicePageTemplate({
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
                 <Image
                   src={heroImage || "/placeholder.svg"}
-                  alt={`${title} by Cold Fix Services`}
+                  alt={`${title} by Gauteng Repair Network`}
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -248,7 +248,7 @@ export function ServicePageTemplate({
               Benefits of Our <span className="text-secondary">{title}</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              Experience the Cold Fix Services difference with our professional, reliable team
+              Experience the Gauteng Repair Network difference with our professional, reliable team
             </p>
           </div>
           
@@ -364,7 +364,7 @@ export function ServicePageTemplate({
               Ready to Get <span className="text-accent">Started?</span>
             </h2>
             <p className="mb-8 text-lg text-primary-foreground/90 leading-relaxed">
-              Contact <strong className="text-white">Cold Fix Services</strong> today for a free quote on your {title.toLowerCase()} needs
+              Contact <strong className="text-white">Gauteng Repair Network</strong> today for a free quote on your {title.toLowerCase()} needs
               in <strong className="text-white">Gauteng</strong>. Same day quotes available.
             </p>
             

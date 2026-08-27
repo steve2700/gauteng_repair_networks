@@ -131,7 +131,7 @@ export function ServicesOverview() {
             Appliance, Aircon and Refrigeration Repairs in Gauteng
           </h2>
           <p className="text-pretty text-lg text-muted-foreground leading-relaxed" itemProp="description">
-            From fridges and freezers to air conditioning and cold rooms, <strong>Cold Fix Services</strong> keeps homes and businesses cool across <strong>Pretoria, Johannesburg, and Gauteng</strong>. One trusted team for all your cooling and appliance needs.
+            From fridges and freezers to air conditioning and cold rooms, <strong>Gauteng Repair Network</strong> keeps homes and businesses cool across <strong>Pretoria, Johannesburg, and Gauteng</strong>. One trusted team for all your cooling and appliance needs.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export function ServicesOverview() {
               <div className="relative h-48 overflow-hidden bg-muted">
                 <Image
                   src={service.image || "/placeholder.svg"}
-                  alt={`${service.title} in Gauteng by Cold Fix Services`}
+                  alt={`${service.title} in Gauteng by Gauteng Repair Network`}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   loading={index < 3 ? "eager" : "lazy"}

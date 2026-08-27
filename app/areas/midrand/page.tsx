@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Midrand | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Midrand | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs in Midrand. Serving Carlswald, Halfway House, Vorna Valley, Kyalami, Waterfall and surrounding areas. Same day callouts available.",
 }
@@ -11,7 +11,7 @@ export default function MidrandPage() {
   return (
     <ServiceAreaTemplate
       areaName="Midrand"
-      description="Cold Fix Services serves Midrand's growing residential and commercial communities with air conditioning, refrigeration, and appliance repairs. Our central location makes us ideal for fast callouts across this rapidly developing area."
+      description="Gauteng Repair Network serves Midrand's growing residential and commercial communities with air conditioning, refrigeration, and appliance repairs. Our central location makes us ideal for fast callouts across this rapidly developing area."
       introImage="/refrigeration-repair-technician.png"
       suburbs={[
         "Carlswald",
@@ -23,7 +23,7 @@ export default function MidrandPage() {
         "Kyalami",
         "Waterfall",
       ]}
-      introduction="Midrand's position between Pretoria and Johannesburg has made it one of Gauteng's fastest growing areas. Cold Fix Services is well placed to serve Midrand's mix of residential estates, office parks, and commercial developments with reliable cooling and appliance repairs. From a fridge that has stopped cooling in a townhouse to refrigeration servicing for a business, we respond quickly with quality work."
+      introduction="Midrand's position between Pretoria and Johannesburg has made it one of Gauteng's fastest growing areas. Gauteng Repair Network is well placed to serve Midrand's mix of residential estates, office parks, and commercial developments with reliable cooling and appliance repairs. From a fridge that has stopped cooling in a townhouse to refrigeration servicing for a business, we respond quickly with quality work."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -47,11 +47,11 @@ export default function MidrandPage() {
         "Quality parts and lasting repairs on every job",
       ]}
       nearbyAreas={[
-        { name: "Johannesburg", href: "/service-areas/johannesburg" },
-        { name: "Pretoria", href: "/service-areas/pretoria" },
-        { name: "Centurion", href: "/service-areas/centurion" },
-        { name: "Sandton", href: "/service-areas/sandton" },
-        { name: "Fourways", href: "/service-areas/fourways" },
+        { name: "Johannesburg", href: "/areas/johannesburg" },
+        { name: "Pretoria", href: "/areas/pretoria" },
+        { name: "Centurion", href: "/areas/centurion" },
+        { name: "Sandton", href: "/areas/sandton" },
+        { name: "Fourways", href: "/areas/fourways" },
       ]}
     />
   )

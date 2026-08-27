@@ -1,18 +1,18 @@
 // File path: app/plumbing-services/page.tsx
-// Clean URL: https://www.coldfix.co.za/plumbing-services
+// Clean URL: https://www.gautengrepairnetwork.co.za/plumbing-services
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Droplets, Wrench, Clock, ShieldCheck, CheckCircle, Refrigerator, WashingMachine, Zap } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Plumbing Connections for Appliance Installs in Gauteng | Cold Fix Services",
+  title: "Plumbing Connections for Appliance Installs in Gauteng | Gauteng Repair Network",
   description:
     "Gas and water connections for appliance, ice maker, and dishwasher installations across Gauteng. Leak repairs tied to fridges and cooling equipment. Serving Pretoria, Johannesburg and Midrand. Same day quotes available.",
   keywords:
     "appliance water connection Gauteng, gas connection Pretoria, dishwasher plumbing Johannesburg, ice maker water line Midrand, washing machine connection, appliance leak repair",
   openGraph: {
-    title: "Plumbing Services | Cold Fix Services Gauteng",
+    title: "Plumbing Services | Gauteng Repair Network Gauteng",
     description:
       "Gas and water connections for appliance installs, plus leak repairs tied to fridges, ice makers, and dishwashers across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/professional-plumber-working-on-pipes-in-a-gauteng-.jpg",
         width: 1200,
         height: 630,
-        alt: "Plumbing connections for appliance installs in Gauteng by Cold Fix Services",
+        alt: "Plumbing connections for appliance installs in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function PlumbingServicesPage() {
   return (
     <ServicePageTemplate
       title="Plumbing Services"
-      description="Many appliances need a reliable water or gas connection to work safely. Cold Fix Services provides the plumbing that supports our appliance, refrigeration, and cooling installations, including water lines for dishwashers, washing machines, and ice makers, gas connections for hobs and ovens, and leak repairs on the pipework feeding your equipment across Gauteng."
+      description="Many appliances need a reliable water or gas connection to work safely. Gauteng Repair Network provides the plumbing that supports our appliance, refrigeration, and cooling installations, including water lines for dishwashers, washing machines, and ice makers, gas connections for hobs and ovens, and leak repairs on the pipework feeding your equipment across Gauteng."
       icon={Droplets}
       heroImage="/professional-plumber-working-on-pipes-in-a-gauteng-.jpg"
       priceRange="Free quotes"
@@ -140,7 +140,7 @@ export default function PlumbingServicesPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A dishwasher, washing machine, fridge with an ice maker, or a gas hob all rely on a safe, well fitted connection. <strong>Cold Fix Services</strong> takes care of the plumbing that goes with our appliance and cooling installations across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We fit water lines, drains, and gas connections, and we repair leaks on the pipework feeding your equipment.
+                A dishwasher, washing machine, fridge with an ice maker, or a gas hob all rely on a safe, well fitted connection. <strong>Gauteng Repair Network</strong> takes care of the plumbing that goes with our appliance and cooling installations across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We fit water lines, drains, and gas connections, and we repair leaks on the pipework feeding your equipment.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -176,7 +176,7 @@ export default function PlumbingServicesPage() {
                   Installing a New Appliance?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Let us handle the water or gas connection at the same time. Call us on <strong className="text-secondary">+27 70 309 6749</strong> for a free quote across Gauteng.
+                  Let us handle the water or gas connection at the same time. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for a free quote across Gauteng.
                 </p>
               </div>
             </div>

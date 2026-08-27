@@ -132,12 +132,12 @@ export function Header() {
       <div className="hidden border-b border-border/50 bg-primary text-primary-foreground lg:block">
         <div className="container mx-auto flex h-10 items-center justify-between px-4 lg:px-8">
           <div className="flex items-center gap-6 text-sm">
-            <a href="tel:+27703096749" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="tel:+27693824908" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone className="h-3.5 w-3.5" />
-              +27 70 309 6749
+              +27 69 382 4908
             </a>
             <a
-              href="https://wa.me/27703096749"
+              href="https://wa.me/27693824908"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-accent transition-colors"
@@ -146,11 +146,11 @@ export function Header() {
               WhatsApp Us
             </a>
             <a
-              href="mailto:info@coldfix.co.za"
+              href="mailto:info@www.gautengrepairnetwork.co.za"
               className="flex items-center gap-2 hover:text-accent transition-colors"
             >
               <Mail className="h-3.5 w-3.5" />
-              info@coldfix.co.za
+              info@www.gautengrepairnetwork.co.za
             </a>
             <a
               href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
@@ -194,7 +194,7 @@ export function Header() {
           <div className="relative flex h-11 w-11 items-center justify-center rounded-xl overflow-hidden shadow-lg bg-white">
             <Image
               src="/logo-icon.png"
-              alt="Cold Fix Services Logo"
+              alt="Gauteng Repair Network Logo"
               width={44}
               height={44}
               className="object-cover"
@@ -286,7 +286,7 @@ export function Header() {
           </div>
 
           <Link
-            href="/service-areas"
+            href="/areas"
             className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-muted hover:text-secondary"
           >
             Service Areas
@@ -331,7 +331,7 @@ export function Header() {
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg overflow-hidden bg-white">
                       <Image
                         src="/logo-icon.png"
-                        alt="Cold Fix Services"
+                        alt="Gauteng Repair Network"
                         width={40}
                         height={40}
                         className="object-cover"
@@ -339,7 +339,7 @@ export function Header() {
                       />
                     </div>
                     <div>
-                      <p className="font-bold text-sm">Cold Fix Services</p>
+                      <p className="font-bold text-sm">Gauteng Repair Network</p>
                       <p className="text-xs text-white/70">Keeping Gauteng Cool</p>
                     </div>
                   </div>
@@ -354,22 +354,22 @@ export function Header() {
                   </Button>
                 </div>
                 <div className="space-y-2 text-sm text-white/90">
-                  <a href="tel:+27703096749" className="flex items-center gap-2 hover:text-white transition-colors">
+                  <a href="tel:+27693824908" className="flex items-center gap-2 hover:text-white transition-colors">
                     <Phone className="h-4 w-4" />
-                    +27 70 309 6749
+                    +27 69 382 4908
                   </a>
                   <a
-                    href="https://wa.me/27703096749"
+                    href="https://wa.me/27693824908"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:text-white transition-colors"
                   >
                     <WhatsAppIcon className="h-4 w-4" />
-                    WhatsApp: +27 70 309 6749
+                    WhatsApp: +27 69 382 4908
                   </a>
-                  <a href="mailto:info@coldfix.co.za" className="flex items-center gap-2 hover:text-white transition-colors">
+                  <a href="mailto:info@www.gautengrepairnetwork.co.za" className="flex items-center gap-2 hover:text-white transition-colors">
                     <Mail className="h-4 w-4" />
-                    info@coldfix.co.za
+                    info@www.gautengrepairnetwork.co.za
                   </a>
                   <a
                     href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
@@ -482,7 +482,7 @@ export function Header() {
                   </div>
 
                   <Link
-                    href="/service-areas"
+                    href="/areas"
                     className="flex items-center gap-3 rounded-xl p-4 text-lg font-medium hover:bg-muted transition-colors"
                     onClick={() => setIsOpen(false)}
                   >

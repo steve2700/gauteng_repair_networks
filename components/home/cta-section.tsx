@@ -11,7 +11,7 @@ export function CTASection() {
       <div className="absolute inset-0">
         <Image
           src="/air-conditioning-service-gauteng.png"
-          alt="Cold Fix Services ready to help with your appliance and refrigeration repairs"
+          alt="Gauteng Repair Network ready to help with your appliance and refrigeration repairs"
           fill
           className="object-cover opacity-10"
         />
@@ -33,7 +33,7 @@ export function CTASection() {
             Ready to Book a Repair?
           </h2>
           <p className="mb-10 text-pretty text-lg text-primary-foreground/80 md:text-xl">
-            Contact Cold Fix Services today for a free quote. Our team is ready to help with appliance repairs, air conditioning, cold rooms, and commercial refrigeration across Pretoria, Johannesburg, and the rest of Gauteng.
+            Contact Gauteng Repair Network today for a free quote. Our team is ready to help with appliance repairs, air conditioning, cold rooms, and commercial refrigeration across Pretoria, Johannesburg, and the rest of Gauteng.
           </p>
 
           <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -52,7 +52,7 @@ export function CTASection() {
               size="lg"
               className="bg-[#25D366] text-white hover:bg-[#25D366]/90 shadow-xl shadow-[#25D366]/25 h-14 px-8 text-base"
             >
-              <a href="https://wa.me/27703096749" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/27693824908" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon className="mr-2 h-5 w-5" />
                 WhatsApp Us
               </a>
@@ -63,7 +63,7 @@ export function CTASection() {
               variant="outline"
               className="border-white/30 bg-white/5 text-white hover:bg-white/10 backdrop-blur-sm h-14 px-8 text-base"
             >
-              <Link href="mailto:info@coldfix.co.za">
+              <Link href="mailto:info@www.gautengrepairnetwork.co.za">
                 <Mail className="mr-2 h-5 w-5" />
                 Email Us Directly
               </Link>

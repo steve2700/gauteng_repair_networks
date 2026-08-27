@@ -12,19 +12,19 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.coldfix.co.za"),
+  metadataBase: new URL("https://www.gautengrepairnetwork.co.za"),
   title: {
-    default: "Cold Fix Services | Appliance, Aircon & Refrigeration Repairs in Gauteng",
-    template: "%s | Cold Fix Services Gauteng",
+    default: "Gauteng Repair Network | Appliance, Aircon & Refrigeration Repairs in Gauteng",
+    template: "%s | Gauteng Repair Network Gauteng",
   },
   description:
-    "Cold Fix Services delivers fast, reliable appliance repairs, air conditioning installation and servicing, cold room installation and commercial refrigeration across Gauteng, Pretoria and Johannesburg. Same day callouts available.",
+    "Gauteng Repair Network delivers fast, reliable appliance repairs, air conditioning installation and servicing, cold room installation and commercial refrigeration across Gauteng, Pretoria and Johannesburg. Same day callouts available.",
   keywords:
-    "fridge repair Johannesburg, appliance repairs Gauteng, air conditioning repair Pretoria, cold room installation Gauteng, commercial refrigeration Johannesburg, aircon service Sandton, washing machine repair Gauteng, emergency fridge repair, Cold Fix Services",
-  authors: [{ name: "Cold Fix Services", url: "https://www.coldfix.co.za" }],
-  creator: "Cold Fix Services",
-  publisher: "Cold Fix Services",
-  applicationName: "Cold Fix Services",
+    "fridge repair Johannesburg, appliance repairs Gauteng, air conditioning repair Pretoria, cold room installation Gauteng, commercial refrigeration Johannesburg, aircon service Sandton, washing machine repair Gauteng, emergency fridge repair, Gauteng Repair Network",
+  authors: [{ name: "Gauteng Repair Network", url: "https://www.gautengrepairnetwork.co.za" }],
+  creator: "Gauteng Repair Network",
+  publisher: "Gauteng Repair Network",
+  applicationName: "Gauteng Repair Network",
   robots: {
     index: true,
     follow: true,
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
     other: [
-      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#0F2C59" },
+      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#0D5C5C" },
     ],
   },
   manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    url: "https://www.coldfix.co.za",
-    siteName: "Cold Fix Services",
-    title: "Cold Fix Services | Appliance, Aircon & Refrigeration Repairs in Gauteng",
+    url: "https://www.gautengrepairnetwork.co.za",
+    siteName: "Gauteng Repair Network",
+    title: "Gauteng Repair Network | Appliance, Aircon & Refrigeration Repairs in Gauteng",
     description:
       "Fast, reliable appliance repairs, air conditioning and refrigeration services across Gauteng. Serving Pretoria, Johannesburg and surrounding areas.",
     images: [
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Cold Fix Services, Appliance and Refrigeration Repairs in Gauteng",
+        alt: "Gauteng Repair Network, Appliance and Refrigeration Repairs in Gauteng",
       },
       {
         url: "/logo-square.png",
         width: 512,
         height: 512,
-        alt: "Cold Fix Services Logo",
+        alt: "Gauteng Repair Network Logo",
       },
     ],
   },
@@ -77,13 +77,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@coldfixservices",
     creator: "@coldfixservices",
-    title: "Cold Fix Services | Appliance & Refrigeration Repairs Gauteng",
+    title: "Gauteng Repair Network | Appliance & Refrigeration Repairs Gauteng",
     description:
       "Appliance repairs, aircon and refrigeration services across Gauteng. Serving Pretoria, Johannesburg and surrounding areas.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.coldfix.co.za",
+    canonical: "https://www.gautengrepairnetwork.co.za",
   },
   verification: {
     google: "your-google-verification-code",
@@ -105,7 +105,7 @@ export default function RootLayout({
   return (
     <html lang="en-ZA">
       <head>
-        <meta name="theme-color" content="#0F2C59" />
+        <meta name="theme-color" content="#0D5C5C" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="format-detection" content="telephone=yes" />
@@ -131,10 +131,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Cold Fix Services",
-              url: "https://www.coldfix.co.za",
-              logo: "https://www.coldfix.co.za/logo-square.png",
-              image: "https://www.coldfix.co.za/og-image.png",
+              name: "Gauteng Repair Network",
+              url: "https://www.gautengrepairnetwork.co.za",
+              logo: "https://www.gautengrepairnetwork.co.za/logo-square.png",
+              image: "https://www.gautengrepairnetwork.co.za/og-image.png",
               description: "Appliance repair, cold room installation, air conditioning and refrigeration services in Gauteng",
               address: {
                 "@type": "PostalAddress",
@@ -169,10 +169,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://www.coldfix.co.za",
-              name: "Cold Fix Services",
-              image: "https://www.coldfix.co.za/logo-square.png",
-              url: "https://www.coldfix.co.za",
+              "@id": "https://www.gautengrepairnetwork.co.za",
+              name: "Gauteng Repair Network",
+              image: "https://www.gautengrepairnetwork.co.za/logo-square.png",
+              url: "https://www.gautengrepairnetwork.co.za",
               telephone: "+27-70-309-6749",
               priceRange: "$$",
               address: {

@@ -5,13 +5,13 @@ import { MapPin, Phone, Mail, Clock, Facebook, Instagram, CheckCircle, Award, Za
 import { WhatsAppIcon } from "@/components/icons/whatsapp-icon"
 
 export const metadata: Metadata = {
-  title: "Contact Cold Fix Services | Free Quote in Gauteng, Pretoria, Johannesburg and Midrand",
+  title: "Contact Gauteng Repair Network | Free Quote in Gauteng, Pretoria, Johannesburg and Midrand",
   description:
-    "Contact Cold Fix Services for air conditioning, refrigeration, cold rooms, or appliance repairs in Gauteng. Free consultation and same day quotes. Call +27 70 309 6749.",
+    "Contact Gauteng Repair Network for air conditioning, refrigeration, cold rooms, or appliance repairs in Gauteng. Free consultation and same day quotes. Call +27 69 382 4908.",
   keywords:
-    "contact Cold Fix Services, air conditioning quote Gauteng, refrigeration repair Pretoria, appliance repair Johannesburg, Midrand cooling company, emergency callout",
+    "contact Gauteng Repair Network, air conditioning quote Gauteng, refrigeration repair Pretoria, appliance repair Johannesburg, Midrand cooling company, emergency callout",
   openGraph: {
-    title: "Contact Cold Fix Services | Free Quote in Gauteng",
+    title: "Contact Gauteng Repair Network | Free Quote in Gauteng",
     description:
       "Get in touch for all air conditioning, refrigeration, and appliance repair needs in Pretoria, Johannesburg, and Gauteng. Free quotes, 24/7 emergency support, same day response.",
     images: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Contact Cold Fix Services",
+        alt: "Contact Gauteng Repair Network",
       },
     ],
   },
@@ -36,15 +36,15 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone and WhatsApp",
-    details: ["+27 70 309 6749"],
-    href: "tel:+27703096749",
+    details: ["+27 69 382 4908"],
+    href: "tel:+27693824908",
     highlight: true,
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["info@coldfix.co.za"],
-    href: "mailto:info@coldfix.co.za",
+    details: ["info@www.gautengrepairnetwork.co.za"],
+    href: "mailto:info@www.gautengrepairnetwork.co.za",
     highlight: false,
   },
   {
@@ -111,7 +111,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-pretty text-lg text-primary-foreground/90 md:text-xl leading-relaxed">
               For air conditioning, refrigeration, cold rooms, or appliance repairs in <strong className="text-white">Gauteng</strong>,
-              contact <strong className="text-white">Cold Fix Services</strong> today. Our expert team provides free consultations, same day quotes, and honest advice
+              contact <strong className="text-white">Gauteng Repair Network</strong> today. Our expert team provides free consultations, same day quotes, and honest advice
               tailored to your needs.
             </p>
 
@@ -258,7 +258,7 @@ export default function ContactPage() {
                     <Instagram className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://wa.me/27703096749"
+                    href="https://wa.me/27693824908"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex h-12 w-12 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-all hover:bg-[#25D366] hover:text-white hover:scale-110 hover:shadow-lg"
@@ -294,7 +294,7 @@ export default function ContactPage() {
                   ))}
                 </div>
                 <p className="text-xs text-muted-foreground">
-                  Don't see your area? <a href="tel:+27703096749" className="text-secondary font-semibold hover:underline">Call us</a>, we cover the entire province!
+                  Don't see your area? <a href="tel:+27693824908" className="text-secondary font-semibold hover:underline">Call us</a>, we cover the entire province!
                 </p>
               </div>
             </div>

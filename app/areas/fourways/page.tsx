@@ -2,11 +2,11 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Fourways | Cold Fix Services",
+  title: "Appliance, Aircon and Refrigeration Repairs in Fourways | Gauteng Repair Network",
   description:
     "Air conditioning, refrigeration, and appliance repairs in Fourways. Serving Lonehill, Dainfern, Broadacres, Cedar Lakes, Douglasdale and surrounding areas. Same day callouts available.",
   openGraph: {
-    title: "Appliance, Aircon and Refrigeration Repairs in Fourways | Cold Fix Services",
+    title: "Appliance, Aircon and Refrigeration Repairs in Fourways | Gauteng Repair Network",
     description:
       "Reliable air conditioning, refrigeration, and appliance repairs for Fourways estates, homes, and businesses.",
   },
@@ -16,7 +16,7 @@ export default function FourwaysPage() {
   return (
     <ServiceAreaTemplate
       areaName="Fourways"
-      description="Cold Fix Services delivers air conditioning, refrigeration, and appliance repairs across Fourways' residential estates and commercial developments. From luxury homes to shopping centres and offices, we keep your cooling and appliances running reliably."
+      description="Gauteng Repair Network delivers air conditioning, refrigeration, and appliance repairs across Fourways' residential estates and commercial developments. From luxury homes to shopping centres and offices, we keep your cooling and appliances running reliably."
       introImage="/cold-fix-technician-team-in-gauteng.png"
       suburbs={[
         "Lonehill",
@@ -28,7 +28,7 @@ export default function FourwaysPage() {
         "Douglasdale",
         "Magaliesig",
       ]}
-      introduction="Fourways has grown into one of Johannesburg's most sought after areas, with premier residential estates, modern shopping centres, and busy commercial developments. Cold Fix Services provides the reliable cooling and appliance repairs that Fourways property owners expect, from aircon servicing in an estate home to refrigeration repairs for a restaurant or shop. Our technicians understand estate access and work efficiently to get you back up and running."
+      introduction="Fourways has grown into one of Johannesburg's most sought after areas, with premier residential estates, modern shopping centres, and busy commercial developments. Gauteng Repair Network provides the reliable cooling and appliance repairs that Fourways property owners expect, from aircon servicing in an estate home to refrigeration repairs for a restaurant or shop. Our technicians understand estate access and work efficiently to get you back up and running."
       servicesOffered={[
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
@@ -52,10 +52,10 @@ export default function FourwaysPage() {
         "24 hour emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
-        { name: "Sandton", href: "/service-areas/sandton" },
-        { name: "Randburg", href: "/service-areas/randburg" },
-        { name: "Johannesburg", href: "/service-areas/johannesburg" },
-        { name: "Midrand", href: "/service-areas/midrand" },
+        { name: "Sandton", href: "/areas/sandton" },
+        { name: "Randburg", href: "/areas/randburg" },
+        { name: "Johannesburg", href: "/areas/johannesburg" },
+        { name: "Midrand", href: "/areas/midrand" },
       ]}
     />
   )

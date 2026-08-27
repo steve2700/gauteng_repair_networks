@@ -76,7 +76,7 @@ export function WhyChooseUs() {
               className="mb-6 text-balance text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl"
               itemProp="name"
             >
-              Why <span className="text-accent">Cold Fix Services</span> is Gauteng&apos;s Trusted Choice
+              Why <span className="text-accent">Gauteng Repair Network</span> is Gauteng&apos;s Trusted Choice
             </h2>
             <p className="mb-8 text-pretty text-lg text-muted-foreground leading-relaxed" itemProp="description">
               We bring together technical skill, reliability, and a commitment to doing the job right for appliance, air conditioning, and refrigeration repairs across <strong>Pretoria, Johannesburg, Midrand, and greater Gauteng</strong>.
@@ -137,7 +137,7 @@ export function WhyChooseUs() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
               <Image
                 src="/air-conditioning-service-gauteng.png"
-                alt="Cold Fix Services technician installing an air conditioning unit in Gauteng"
+                alt="Gauteng Repair Network technician installing an air conditioning unit in Gauteng"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
@@ -152,7 +152,7 @@ export function WhyChooseUs() {
             <div className="absolute -bottom-6 -left-6 aspect-square w-40 overflow-hidden rounded-2xl border-4 border-background shadow-xl ring-1 ring-border transition-transform hover:scale-105">
               <Image
                 src="/property-maintenance-worker-fixing-repairs-profess.jpg"
-                alt="Cold Fix Services technician repairing a household appliance in Gauteng"
+                alt="Gauteng Repair Network technician repairing a household appliance in Gauteng"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -185,7 +185,7 @@ export function WhyChooseUs() {
         <div>
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-3">
-              What Sets Cold Fix Services Apart
+              What Sets Gauteng Repair Network Apart
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Our commitment to quality, reliability, and customer care makes us the go to choice for homes and businesses across Gauteng.
@@ -226,7 +226,7 @@ export function WhyChooseUs() {
         {/* Bottom CTA Section */}
         <div className="mt-16 text-center bg-gradient-to-br from-secondary/5 to-accent/5 rounded-2xl p-8 lg:p-12 border border-border">
           <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-            Ready to Experience the Cold Fix Services Difference?
+            Ready to Experience the Gauteng Repair Network Difference?
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Join hundreds of satisfied clients across Gauteng who trust us to keep their appliances and cooling systems running.
@@ -248,8 +248,8 @@ export function WhyChooseUs() {
               variant="outline"
               className="border-secondary/30 hover:bg-secondary/10 h-14 px-8 font-semibold transition-transform hover:scale-105"
             >
-              <Link href="tel:+27703096749">
-                Call Us: +27 70 309 6749
+              <Link href="tel:+27693824908">
+                Call Us: +27 69 382 4908
               </Link>
             </Button>
           </div>

@@ -1,18 +1,18 @@
 // File path: app/appliance-repairs/page.tsx
-// Clean URL: https://www.coldfix.co.za/appliance-repairs
+// Clean URL: https://www.gautengrepairnetwork.co.za/appliance-repairs
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { Wrench, WashingMachine, Clock, Award, ShieldCheck, Refrigerator, Zap, Store } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Appliance Repairs in Gauteng | Washing Machine, Dishwasher, Oven Repair | Cold Fix Services",
+  title: "Appliance Repairs in Gauteng | Washing Machine, Dishwasher, Oven Repair | Gauteng Repair Network",
   description:
     "Home appliance repairs across Gauteng. We repair washing machines, tumble dryers, dishwashers, ovens, stoves, and more. Fast, reliable service in Pretoria, Johannesburg and Midrand. Same day callouts available.",
   keywords:
     "appliance repairs Gauteng, washing machine repair Johannesburg, dishwasher repair Pretoria, tumble dryer repair, oven repair Midrand, stove repair",
   openGraph: {
-    title: "Appliance Repairs | Cold Fix Services Gauteng",
+    title: "Appliance Repairs | Gauteng Repair Network Gauteng",
     description:
       "Fast, reliable repairs for washing machines, dishwashers, ovens, and home appliances across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/appliance_repairs.jpg",
         width: 1200,
         height: 630,
-        alt: "Appliance repairs in Gauteng by Cold Fix Services",
+        alt: "Appliance repairs in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function ApplianceRepairsPage() {
   return (
     <ServicePageTemplate
       title="Appliance Repairs"
-      description="A broken appliance disrupts your whole day. Cold Fix Services repairs washing machines, tumble dryers, dishwashers, ovens, stoves, and other household appliances across Gauteng. Our technicians diagnose the fault, quote honestly, and repair with quality parts so your home runs smoothly again."
+      description="A broken appliance disrupts your whole day. Gauteng Repair Network repairs washing machines, tumble dryers, dishwashers, ovens, stoves, and other household appliances across Gauteng. Our technicians diagnose the fault, quote honestly, and repair with quality parts so your home runs smoothly again."
       icon={WashingMachine}
       heroImage="/appliance_repairs.jpg"
       priceRange="Free quotes"
@@ -138,7 +138,7 @@ export default function ApplianceRepairsPage() {
             <h2 className="mb-8 text-3xl font-bold">Home Appliance Repairs Across Gauteng</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                When your washing machine stops mid cycle or your oven will not heat, you need a reliable technician fast. <strong>Cold Fix Services</strong> repairs the household appliances you depend on for clients across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region, with honest quotes and quality parts on every job.
+                When your washing machine stops mid cycle or your oven will not heat, you need a reliable technician fast. <strong>Gauteng Repair Network</strong> repairs the household appliances you depend on for clients across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region, with honest quotes and quality parts on every job.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="p-6 rounded-xl bg-card border border-border">

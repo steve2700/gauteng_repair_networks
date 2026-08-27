@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 
 export const dynamic = "force-static"
 
-const baseUrl = "https://www.coldfix.co.za"
+const baseUrl = "https://www.gautengrepairnetwork.co.za"
 
 const services = [
   "air-conditioning-services",
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/services`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/contact`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/service-areas`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/areas`, lastModified, changeFrequency: "monthly", priority: 0.8 },
   ]
 
   const servicePages: MetadataRoute.Sitemap = services.map((slug) => ({
@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const serviceAreaPages: MetadataRoute.Sitemap = serviceAreas.map((slug) => ({
-    url: `${baseUrl}/service-areas/${slug}`,
+    url: `${baseUrl}/areas/${slug}`,
     lastModified,
     changeFrequency: "monthly",
     priority: 0.7,

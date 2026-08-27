@@ -1,18 +1,18 @@
 // File path: app/property-maintenance/page.tsx
-// Clean URL: https://www.coldfix.co.za/property-maintenance
+// Clean URL: https://www.gautengrepairnetwork.co.za/property-maintenance
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { CalendarClock, Clock, ShieldCheck, TrendingUp, CheckCircle, Settings, Wind, Refrigerator, Store } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Maintenance Contracts in Gauteng | Scheduled Appliance and Cooling Servicing | Cold Fix Services",
+  title: "Maintenance Contracts in Gauteng | Scheduled Appliance and Cooling Servicing | Gauteng Repair Network",
   description:
     "Scheduled maintenance contracts for homes and businesses across Gauteng. Regular servicing for air conditioning, refrigeration, and appliances keeps your equipment reliable. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
     "maintenance contracts Gauteng, appliance servicing plan Pretoria, aircon maintenance Johannesburg, refrigeration servicing Midrand, scheduled maintenance, cooling service plan",
   openGraph: {
-    title: "Maintenance Contracts | Cold Fix Services Gauteng",
+    title: "Maintenance Contracts | Gauteng Repair Network Gauteng",
     description:
       "Scheduled servicing for homes and businesses that keeps your appliances and cooling equipment working year round across Gauteng.",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "/property-maintenance-worker-repairing-fixtures-in-a.jpg",
         width: 1200,
         height: 630,
-        alt: "Maintenance contracts for appliances and cooling equipment in Gauteng by Cold Fix Services",
+        alt: "Maintenance contracts for appliances and cooling equipment in Gauteng by Gauteng Repair Network",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function MaintenanceContractsPage() {
   return (
     <ServicePageTemplate
       title="Maintenance Contracts"
-      description="Regular servicing keeps your appliances and cooling equipment reliable and cheaper to run. Cold Fix Services offers scheduled maintenance contracts for homes and businesses across Gauteng, covering air conditioning, refrigeration, and household appliances. Planned visits mean fewer breakdowns, longer equipment life, and priority support when you need it."
+      description="Regular servicing keeps your appliances and cooling equipment reliable and cheaper to run. Gauteng Repair Network offers scheduled maintenance contracts for homes and businesses across Gauteng, covering air conditioning, refrigeration, and household appliances. Planned visits mean fewer breakdowns, longer equipment life, and priority support when you need it."
       icon={CalendarClock}
       heroImage="/property-maintenance-worker-repairing-fixtures-in-a.jpg"
       priceRange="Tailored plans"
@@ -140,7 +140,7 @@ export default function MaintenanceContractsPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The best way to avoid a breakdown is to service your equipment before it fails. <strong>Cold Fix Services</strong> offers scheduled maintenance contracts for homes and businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We tailor every plan to your appliances and cooling equipment, so you get regular care, priority support, and clear records on every visit.
+                The best way to avoid a breakdown is to service your equipment before it fails. <strong>Gauteng Repair Network</strong> offers scheduled maintenance contracts for homes and businesses across <strong>Pretoria, Johannesburg, Midrand</strong>, and the wider Gauteng region. We tailor every plan to your appliances and cooling equipment, so you get regular care, priority support, and clear records on every visit.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -176,7 +176,7 @@ export default function MaintenanceContractsPage() {
                   Set Up a Maintenance Plan
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Keep your appliances and cooling equipment in top condition all year. Call us on <strong className="text-secondary">+27 70 309 6749</strong> to set up a plan that suits your home or business.
+                  Keep your appliances and cooling equipment in top condition all year. Call us on <strong className="text-secondary">+27 69 382 4908</strong> to set up a plan that suits your home or business.
                 </p>
               </div>
             </div>

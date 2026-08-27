@@ -49,7 +49,7 @@ export function ServiceAreaTemplate({
         <div className="absolute inset-0">
           <Image
             src={heroImage || "/map-of-gauteng-south-africa-highlighting-pretoria-.jpg"}
-            alt={`Cold Fix Services appliance and refrigeration repairs in ${areaName}`}
+            alt={`Gauteng Repair Network appliance and refrigeration repairs in ${areaName}`}
             fill
             className="object-cover opacity-15"
             priority
@@ -58,7 +58,7 @@ export function ServiceAreaTemplate({
         </div>
 
         <div className="container relative mx-auto px-4 lg:px-8">
-          <Breadcrumbs variant="onDark" items={[{ label: "Service Areas", href: "/service-areas" }, { label: areaName }]} />
+          <Breadcrumbs variant="onDark" items={[{ label: "Service Areas", href: "/areas" }, { label: areaName }]} />
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2.5 text-sm font-medium text-white backdrop-blur-sm border border-white/10">
@@ -155,7 +155,7 @@ export function ServiceAreaTemplate({
                 <p className="text-muted-foreground leading-relaxed mb-6">{introduction}</p>
 
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  With years of experience serving {areaName} and surrounding areas, Cold Fix Services has completed <strong>{projectsCompleted}+ repairs and installations</strong> for homes and businesses. Our local knowledge means we understand the needs of properties in {areaName}.
+                  With years of experience serving {areaName} and surrounding areas, Gauteng Repair Network has completed <strong>{projectsCompleted}+ repairs and installations</strong> for homes and businesses. Our local knowledge means we understand the needs of properties in {areaName}.
                 </p>
               </div>
 
@@ -185,7 +185,7 @@ export function ServiceAreaTemplate({
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl border border-border">
                 <Image
                   src={introImage || "/cold-fix-technicians-servicing-air-conditioner.png"}
-                  alt={`Professional appliance and refrigeration repairs in ${areaName} by Cold Fix Services`}
+                  alt={`Professional appliance and refrigeration repairs in ${areaName} by Gauteng Repair Network`}
                   fill
                   className="object-cover"
                 />
@@ -281,7 +281,7 @@ export function ServiceAreaTemplate({
                 Why Choose Us
               </span>
               <h2 className="mb-6 text-balance text-3xl font-bold tracking-tight md:text-4xl">
-                Why {areaName} Homes and Businesses Trust Cold Fix Services
+                Why {areaName} Homes and Businesses Trust Gauteng Repair Network
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-muted-foreground leading-relaxed mb-6">
@@ -311,7 +311,7 @@ export function ServiceAreaTemplate({
           <div className="mb-8">
             <h2 className="mb-3 text-2xl font-bold">We Also Serve Nearby Areas</h2>
             <p className="text-muted-foreground">
-              Cold Fix Services provides appliance, aircon, and refrigeration repairs throughout Gauteng.
+              Gauteng Repair Network provides appliance, aircon, and refrigeration repairs throughout Gauteng.
               Explore our other service areas:
             </p>
           </div>
@@ -341,7 +341,7 @@ export function ServiceAreaTemplate({
               Need a Repair in {areaName}?
             </h2>
             <p className="mb-8 text-lg text-primary-foreground/90 leading-relaxed">
-              Contact Cold Fix Services today for a free quote. Our experienced technicians are ready to help with your appliance, air conditioning, or refrigeration needs in {areaName}, whether at home or at your business.
+              Contact Gauteng Repair Network today for a free quote. Our experienced technicians are ready to help with your appliance, air conditioning, or refrigeration needs in {areaName}, whether at home or at your business.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg">
@@ -356,7 +356,7 @@ export function ServiceAreaTemplate({
                 variant="outline"
                 className="border-white/30 bg-white/5 text-white hover:bg-white/10 backdrop-blur-sm"
               >
-                <Link href="tel:+27703096749">
+                <Link href="tel:+27693824908">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Us Now
                 </Link>
