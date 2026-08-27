@@ -146,11 +146,11 @@ export function Header() {
               WhatsApp Us
             </a>
             <a
-              href="mailto:info@www.gautengrepairnetwork.co.za"
+              href="mailto:info@gautengrepairnetwork.co.za"
               className="flex items-center gap-2 hover:text-accent transition-colors"
             >
               <Mail className="h-3.5 w-3.5" />
-              info@www.gautengrepairnetwork.co.za
+              info@gautengrepairnetwork.co.za
             </a>
             <a
               href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
@@ -367,9 +367,9 @@ export function Header() {
                     <WhatsAppIcon className="h-4 w-4" />
                     WhatsApp: +27 69 382 4908
                   </a>
-                  <a href="mailto:info@www.gautengrepairnetwork.co.za" className="flex items-center gap-2 hover:text-white transition-colors">
+                  <a href="mailto:info@gautengrepairnetwork.co.za" className="flex items-center gap-2 hover:text-white transition-colors">
                     <Mail className="h-4 w-4" />
-                    info@www.gautengrepairnetwork.co.za
+                    info@gautengrepairnetwork.co.za
                   </a>
                   <a
                     href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"

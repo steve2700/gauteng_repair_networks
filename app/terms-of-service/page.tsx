@@ -233,7 +233,7 @@ export default function TermsOfServicePage() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                    <span className="text-sm text-muted-foreground">info@www.gautengrepairnetwork.co.za</span>
+                    <span className="text-sm text-muted-foreground">info@gautengrepairnetwork.co.za</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-primary flex-shrink-0" />
@@ -258,7 +258,7 @@ export default function TermsOfServicePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="mailto:info@www.gautengrepairnetwork.co.za"
+                    href="mailto:info@gautengrepairnetwork.co.za"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                   >
                     <Mail className="h-4 w-4" />

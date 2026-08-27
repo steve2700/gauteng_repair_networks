@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
                   <Mail className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-sm text-muted-foreground">info@www.gautengrepairnetwork.co.za</p>
+                    <p className="text-sm text-muted-foreground">info@gautengrepairnetwork.co.za</p>
                   </div>
                 </div>
               </div>
@@ -461,7 +461,7 @@ export default function PrivacyPolicyPage() {
               <div className="rounded-xl bg-primary/10 p-6 border-2 border-primary/20">
                 <h3 className="mb-4 font-bold">To exercise your rights, contact us at:</h3>
                 <div className="space-y-2 text-sm">
-                  <p><strong>Email:</strong> info@www.gautengrepairnetwork.co.za</p>
+                  <p><strong>Email:</strong> info@gautengrepairnetwork.co.za</p>
                   <p><strong>Phone:</strong> +27 69 382 4908</p>
                   <p><strong>Location:</strong> Gauteng, South Africa</p>
                 </div>
@@ -551,7 +551,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className="mb-4 ml-6 space-y-2 list-disc text-muted-foreground">
                   <li>Clicking the "unsubscribe" link in emails</li>
-                  <li>Contacting us at info@www.gautengrepairnetwork.co.za</li>
+                  <li>Contacting us at info@gautengrepairnetwork.co.za</li>
                   <li>Calling us at +27 69 382 4908</li>
                 </ul>
                 <p className="text-sm italic text-muted-foreground">
@@ -588,7 +588,7 @@ export default function PrivacyPolicyPage() {
                   </p>
                   <div className="space-y-2">
                     <p><strong>Information Officer:</strong> Gauteng Repair Network Management</p>
-                    <p><strong>Email:</strong> info@www.gautengrepairnetwork.co.za</p>
+                    <p><strong>Email:</strong> info@gautengrepairnetwork.co.za</p>
                     <p><strong>Phone:</strong> +27 69 382 4908</p>
                     <p><strong>Location:</strong> Gauteng, South Africa</p>
                   </div>
@@ -649,7 +649,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
-                    href="mailto:info@www.gautengrepairnetwork.co.za" 
+                    href="mailto:info@gautengrepairnetwork.co.za" 
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                   >
                     <Mail className="h-4 w-4" />

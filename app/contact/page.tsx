@@ -43,8 +43,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["info@www.gautengrepairnetwork.co.za"],
-    href: "mailto:info@www.gautengrepairnetwork.co.za",
+    details: ["info@gautengrepairnetwork.co.za"],
+    href: "mailto:info@gautengrepairnetwork.co.za",
     highlight: false,
   },
   {

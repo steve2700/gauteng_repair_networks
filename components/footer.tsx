@@ -218,10 +218,10 @@ export function Footer() {
               </li>
 
               <li>
-                <a href="mailto:info@www.gautengrepairnetwork.co.za" className="group flex items-center gap-3">
+                <a href="mailto:info@gautengrepairnetwork.co.za" className="group flex items-center gap-3">
                   <Mail className="h-5 w-5 flex-shrink-0 text-accent" />
                   <span className="text-sm text-primary-foreground/80 transition-colors group-hover:text-accent">
-                    info@www.gautengrepairnetwork.co.za
+                    info@gautengrepairnetwork.co.za
                   </span>
                 </a>
               </li>

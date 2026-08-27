@@ -63,7 +63,7 @@ export function CTASection() {
               variant="outline"
               className="border-white/30 bg-white/5 text-white hover:bg-white/10 backdrop-blur-sm h-14 px-8 text-base"
             >
-              <Link href="mailto:info@www.gautengrepairnetwork.co.za">
+              <Link href="mailto:info@gautengrepairnetwork.co.za">
                 <Mail className="mr-2 h-5 w-5" />
                 Email Us Directly
               </Link>
