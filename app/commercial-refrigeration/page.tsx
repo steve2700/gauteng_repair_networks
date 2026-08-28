@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Commercial refrigeration repair and maintenance across Gauteng. We service display fridges, under counter units, bottle coolers, ice machines, and deli cabinets for shops and restaurants. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
-    "commercial refrigeration Gauteng, display fridge repair Johannesburg, bottle cooler repair Pretoria, ice machine repair, deli fridge repair Midrand",
+    "commercial refrigeration Gauteng, display fridge repair Johannesburg, bottle cooler repair Pretoria, ice machine repair, deli fridge repair Midrand, commercial fridge maintenance contract, restaurant fridge repair emergency",
   openGraph: {
     title: "Commercial Refrigeration | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,39 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "My display fridge or freezer broke down during trading hours. How fast can you help?",
+    answer:
+      "We offer same day callouts across Gauteng because we know a broken commercial unit means lost stock and lost sales every hour it's down. Call us directly for the fastest response, and we'll prioritise getting your equipment back online.",
+  },
+  {
+    question: "Can you help us stay compliant with food safety temperature requirements?",
+    answer:
+      "Yes. Our technicians repair and service fridges, freezers, and cold display units to keep them holding safe, consistent temperatures. Regular maintenance also creates a service history, which is useful to show during health and safety inspections.",
+  },
+  {
+    question: "Do you offer maintenance contracts for restaurants and shops?",
+    answer:
+      "Yes, we offer scheduled maintenance plans that catch small issues, like a slow gas leak or a worn door seal, before they cause a full breakdown. This is usually far cheaper than emergency repairs and helps avoid unplanned downtime.",
+  },
+  {
+    question: "What types of commercial refrigeration equipment do you service?",
+    answer:
+      "We work on display fridges, bottle coolers, under counter units, deli and butchery cabinets, ice machines, and blast chillers, across all major commercial brands.",
+  },
+  {
+    question: "Can you work outside our trading hours to avoid disrupting customers?",
+    answer:
+      "Wherever possible, yes. We understand that a technician working in a busy restaurant or shop during peak hours isn't ideal, so we try to schedule non urgent repairs and maintenance around your quieter periods.",
+  },
+  {
+    question: "Is it cheaper to repair or replace an old commercial fridge?",
+    answer:
+      "It depends on the age of the unit, the cost of the part needed, and how often it's been breaking down. We give you an honest recommendation on repair versus replacement so you can make the call that makes financial sense for your business.",
+  },
+]
 
 export default function CommercialRefrigerationPage() {
   return (
@@ -154,6 +187,39 @@ export default function CommercialRefrigerationPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Commercial Refrigeration Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions restaurants, shops, and businesses ask us most often.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
