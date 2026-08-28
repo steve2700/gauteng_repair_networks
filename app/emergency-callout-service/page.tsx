@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Emergency callout service for refrigeration, air conditioning, and appliance breakdowns across Gauteng. Fast response to protect your stock and get you running again. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
-    "emergency refrigeration repair Gauteng, emergency aircon repair Johannesburg, urgent fridge repair Pretoria, emergency appliance callout, breakdown repair Midrand",
+    "emergency refrigeration repair Gauteng, emergency aircon repair Johannesburg, urgent fridge repair Pretoria, emergency appliance callout, breakdown repair Midrand, after hours fridge repair, urgent cold room repair",
   openGraph: {
     title: "Emergency Callout Service | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,34 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "How fast can you respond to an emergency callout?",
+    answer:
+      "We prioritise emergency calls and aim to dispatch a technician as quickly as possible. Response time depends on your location and current job load, but breakdowns always jump ahead of routine bookings. Call us directly and we'll give you an honest estimate on arrival time.",
+  },
+  {
+    question: "What counts as an emergency?",
+    answer:
+      "Any breakdown that puts stock, food, or comfort at risk qualifies, a cold room or commercial fridge that's stopped cooling, a home fridge or freezer failure, or an aircon breakdown during extreme heat. If you're not sure, call us and describe the issue, we'll advise on priority.",
+  },
+  {
+    question: "Is emergency callout more expensive than a normal booking?",
+    answer:
+      "We're upfront about pricing before any work starts, including for emergency callouts. Ask when you call so there are no surprises, we don't believe in inflating prices just because a job is urgent.",
+  },
+  {
+    question: "Do you carry parts with you for emergency repairs?",
+    answer:
+      "Our technicians carry common spares and parts, so many emergency repairs can be completed on the first visit. For less common parts, we'll advise you on site and give you a clear timeline for the fix.",
+  },
+  {
+    question: "Do you handle emergencies for both homes and businesses?",
+    answer:
+      "Yes. Whether it's a household fridge, a commercial cold room, or a shop's display fridge, we respond to both residential and commercial emergency callouts across Gauteng.",
+  },
+]
 
 export default function EmergencyCalloutPage() {
   return (
@@ -155,6 +183,39 @@ export default function EmergencyCalloutPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Emergency Callout Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about emergency breakdowns.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
