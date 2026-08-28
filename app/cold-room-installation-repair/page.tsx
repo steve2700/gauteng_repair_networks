@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Cold room installation, repair, and maintenance across Gauteng. We build and service walk in cold rooms and freezer rooms for restaurants, butcheries, and businesses. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
-    "cold room installation Gauteng, cold room repair Johannesburg, walk in freezer room Pretoria, freezer room repair, cold room maintenance Midrand",
+    "cold room installation Gauteng, cold room repair Johannesburg, walk in freezer room Pretoria, freezer room repair, cold room maintenance Midrand, cold room not holding temperature, cold room cost Gauteng",
   openGraph: {
     title: "Cold Room Installation and Repair | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,39 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "How much does a cold room installation cost in Gauteng?",
+    answer:
+      "Cost depends on size, insulation thickness, refrigeration capacity, and whether it's a new build or a retrofit into existing space. We assess your site and stock needs first, then give you a detailed, itemised quote so there are no surprises.",
+  },
+  {
+    question: "My cold room isn't holding temperature. What could be causing this?",
+    answer:
+      "The usual culprits are a refrigerant gas leak, a failing condenser or evaporator fan, damaged door seals letting warm air in, or the unit being undersized for the current stock load. We diagnose on site and give you an honest repair quote before starting any work.",
+  },
+  {
+    question: "How long does a cold room installation take?",
+    answer:
+      "A straightforward walk in cold room installation typically takes a few days from site prep to handover, depending on size and site access. We'll give you a clear timeline during the site assessment so you can plan around it.",
+  },
+  {
+    question: "Can you install a cold room without shutting down my business?",
+    answer:
+      "In most cases, yes. We work around your trading hours wherever possible and plan installations or major repairs to minimise disruption to your operation.",
+  },
+  {
+    question: "How often should a commercial cold room be serviced?",
+    answer:
+      "We recommend at least two maintenance visits a year for commercial cold rooms, more often for high use environments like butcheries and restaurants. Regular servicing catches small issues, like a slow gas leak or a worn seal, before they become a full breakdown.",
+  },
+  {
+    question: "Do you repair existing cold rooms installed by another company?",
+    answer:
+      "Yes, we service and repair cold rooms regardless of who installed them. Our technicians work across all major refrigeration plant brands and cold room panel systems.",
+  },
+]
 
 export default function ColdRoomPage() {
   return (
@@ -154,6 +187,39 @@ export default function ColdRoomPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Cold Room Installation and Repair Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions businesses ask us most often about cold rooms.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
