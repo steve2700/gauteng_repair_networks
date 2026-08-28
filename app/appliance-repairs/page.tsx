@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Home appliance repairs across Gauteng. We repair washing machines, tumble dryers, dishwashers, ovens, stoves, and more. Fast, reliable service in Pretoria, Johannesburg and Midrand. Same day callouts available.",
   keywords:
-    "appliance repairs Gauteng, washing machine repair Johannesburg, dishwasher repair Pretoria, tumble dryer repair, oven repair Midrand, stove repair",
+    "appliance repairs Gauteng, washing machine repair Johannesburg, dishwasher repair Pretoria, tumble dryer repair, oven repair Midrand, stove repair, washing machine not draining, washing machine not spinning",
   openGraph: {
     title: "Appliance Repairs | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,39 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "My washing machine won't drain or spin. What's wrong?",
+    answer:
+      "This is usually caused by a blocked drain pump or filter, a faulty drain hose, or a worn drive belt. Sometimes it's as simple as a blockage from coins or debris. We diagnose the exact cause on site before quoting, so you know what you're paying for.",
+  },
+  {
+    question: "Is it worth repairing my appliance or should I buy a new one?",
+    answer:
+      "It depends on the age of the appliance, the cost of the part needed, and its overall condition. We give you an honest recommendation, not just a repair quote, so you can decide what makes sense financially rather than defaulting to buying new.",
+  },
+  {
+    question: "Do you repair all appliance brands?",
+    answer:
+      "Yes, our technicians work across all major brands found in South African homes, including Samsung, LG, Defy, Whirlpool, Bosch, and more.",
+  },
+  {
+    question: "How quickly can you fix my appliance?",
+    answer:
+      "We offer same day callouts across Gauteng for most repairs. Once we've diagnosed the fault, we'll let you know if the part is available immediately or needs to be ordered in.",
+  },
+  {
+    question: "My oven isn't heating up. Can this be repaired?",
+    answer:
+      "In most cases, yes. A common cause is a failed heating element, a faulty thermostat, or an issue with the control board. These are usually straightforward, cost effective repairs rather than requiring a full replacement.",
+  },
+  {
+    question: "Do you offer a warranty on appliance repairs?",
+    answer:
+      "We stand behind our workmanship and the parts we fit. Ask your technician about the specific warranty terms for your repair when they provide your quote.",
+  },
+]
 
 export default function ApplianceRepairsPage() {
   return (
@@ -154,6 +187,39 @@ export default function ApplianceRepairsPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Appliance Repair Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about home appliance repairs.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
