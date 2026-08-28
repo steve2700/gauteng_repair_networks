@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Gas and water connections for appliance, ice maker, and dishwasher installations across Gauteng. Leak repairs tied to fridges and cooling equipment. Serving Pretoria, Johannesburg and Midrand. Same day quotes available.",
   keywords:
-    "appliance water connection Gauteng, gas connection Pretoria, dishwasher plumbing Johannesburg, ice maker water line Midrand, washing machine connection, appliance leak repair",
+    "appliance water connection Gauteng, gas connection Pretoria, dishwasher plumbing Johannesburg, ice maker water line Midrand, washing machine connection, appliance leak repair, fridge water line leaking",
   openGraph: {
     title: "Plumbing Services | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,34 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "Do you do general plumbing, like fixing toilets or geysers?",
+    answer:
+      "Our plumbing work is focused on the water and gas connections that support appliance and cooling installs, things like dishwasher and washing machine water lines, ice maker connections, and gas hob fittings. If you need general household plumbing outside of that scope, let us know when you call and we'll advise honestly on whether it's something we can help with.",
+  },
+  {
+    question: "Can you connect a new dishwasher or washing machine to existing plumbing?",
+    answer:
+      "Yes, this is one of our most common jobs. We check your existing water supply and drainage, then fit the correct hoses, valves, and connections safely, testing for leaks before we finish.",
+  },
+  {
+    question: "My fridge's water line or ice maker is leaking. Can you fix that?",
+    answer:
+      "Yes, we trace leaks on fridge water lines and ice maker connections and repair or replace the faulty fitting, hose, or valve. Left unfixed, these leaks can cause real damage to floors and cabinets, so it's worth addressing quickly.",
+  },
+  {
+    question: "Do you handle gas connections for ovens and hobs?",
+    answer:
+      "Yes, we fit safe gas connections for hobs and ovens as part of appliance installations, using the correct valves and checking thoroughly for leaks before handover.",
+  },
+  {
+    question: "Can you do the plumbing and the appliance install at the same time?",
+    answer:
+      "Yes, this is often the most convenient option. We can handle the water, drain, or gas connection alongside your appliance installation in a single callout, so you're not coordinating two separate technicians.",
+  },
+]
 
 export default function PlumbingServicesPage() {
   return (
@@ -179,6 +207,39 @@ export default function PlumbingServicesPage() {
                   Let us handle the water or gas connection at the same time. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for a free quote across Gauteng.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Plumbing and Appliance Connection Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about appliance plumbing and connections.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
