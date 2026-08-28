@@ -3,18 +3,18 @@
 
 import type { Metadata } from "next"
 import { ServicePageTemplate } from "@/components/service-page-template"
-import { Snowflake, Zap, Award, Wrench, Building2, Clock, Refrigerator, WashingMachine } from "lucide-react"
+import { Snowflake, Zap, Award, Wrench, Building2, Clock, Refrigerator, WashingMachine, AlertCircle } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Air Conditioning Services in Gauteng | AC Installation, Repairs and Servicing | Gauteng Repair Network",
+  title: "Aircon Repair Near Me in Gauteng | AC Installation, Regas & Servicing | Gauteng Repair Network",
   description:
-    "Professional air conditioning installation, servicing, repairs and gas refills in Gauteng. Expert aircon technicians for homes and businesses in Pretoria, Johannesburg and Midrand. Split systems, ducted AC, inverters. Same day service available.",
+    "Fast aircon repair near you in Gauteng. Air conditioning not cooling? Need a regas or gas refill? We install, service and repair split systems, ducted AC and inverters in Pretoria, Johannesburg and Midrand. Same day service available.",
   keywords:
-    "air conditioning Gauteng, AC installation Pretoria, aircon repairs Johannesburg, aircon service Midrand, split system installation, ducted air conditioning, aircon gas refill, inverter aircon",
+    "aircon repair near me, aircon not cooling, aircon regas near me, air conditioning repairs near me, aircon fixing near me, aircon gas refill, air conditioning Gauteng, AC installation Pretoria, aircon repairs Johannesburg, aircon service Midrand, split system installation, ducted air conditioning, inverter aircon",
   openGraph: {
-    title: "Air Conditioning Services | Gauteng Repair Network Gauteng",
+    title: "Aircon Repair Near Me | Gauteng Repair Network",
     description:
-      "Reliable climate control for homes and businesses in Gauteng. Professional AC installation, servicing, repairs and gas refills. Same day service available.",
+      "Fast, reliable air conditioning repairs, regas and servicing for homes and businesses across Gauteng. Same day service available.",
     images: [
       {
         url: "/air-conditioning-service-gauteng.png",
@@ -26,11 +26,39 @@ export const metadata: Metadata = {
   },
 }
 
+const faqs = [
+  {
+    question: "My aircon is running but not cooling. What's wrong?",
+    answer:
+      "This is the most common aircon complaint we get. It's usually a low refrigerant level from a gas leak (needs a regas), a blocked or dirty filter restricting airflow, a faulty outdoor unit, or a failing compressor. We diagnose the exact cause on site before quoting, so you're not paying for guesswork.",
+  },
+  {
+    question: "What is an aircon regas and how do I know if I need one?",
+    answer:
+      "A regas means recharging your aircon's refrigerant gas after it's leaked or dropped over time. Common signs you need one include the unit blowing air but not actually cooling, longer run times to reach temperature, or ice forming on the indoor unit. We always check for a leak first, since regassing without fixing the leak just means the gas escapes again.",
+  },
+  {
+    question: "How often should I service my aircon?",
+    answer:
+      "We recommend servicing at least once a year, ideally before summer. Regular servicing includes filter cleaning, coil cleaning, and a gas level check, which prevents most breakdowns before they happen and keeps running costs down.",
+  },
+  {
+    question: "Do you repair all aircon brands?",
+    answer:
+      "Yes, we work on all major brands including Samsung, LG, Midea, Panasonic, and Hisense, across split systems, multi split units, ducted systems, and inverters.",
+  },
+  {
+    question: "How fast can you get to me for an aircon repair near me?",
+    answer:
+      "We offer same day service across Gauteng, including Pretoria, Johannesburg, Midrand, Sandton, and surrounding areas. For urgent breakdowns, especially during a heatwave, call us directly for the fastest response.",
+  },
+]
+
 export default function AirConditioningServicesPage() {
   return (
     <ServicePageTemplate
       title="Air Conditioning Services"
-      description="Stay comfortable all year round with professional air conditioning solutions from Gauteng Repair Network. We install, service, and repair split systems, multi split units, ducted systems, and inverters for homes and businesses across Gauteng. Our technicians are refrigerant handling certified and work with all major brands to keep your space cool and your running costs low."
+      description="Stay comfortable all year round with professional air conditioning repairs, installation and servicing from Gauteng Repair Network. We fix aircon not cooling, handle regas and gas refills, and install split systems, multi split units, ducted systems, and inverters for homes and businesses across Gauteng. Our technicians are refrigerant handling certified and work with all major brands to keep your space cool and your running costs low."
       icon={Snowflake}
       heroImage="/air-conditioning-service-gauteng.png"
       priceRange="Free quotes"
@@ -43,7 +71,8 @@ export default function AirConditioningServicesPage() {
         "Inverter air conditioners",
         "Regular servicing and maintenance",
         "Aircon repairs and fault finding",
-        "Gas refills and recharging",
+        "Aircon regas and gas refills",
+        "Fixing aircon not cooling",
         "Filter and coil cleaning",
         "Thermostat and control setup",
         "Energy efficient upgrades",
@@ -140,7 +169,7 @@ export default function AirConditioningServicesPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Whether you need a new installation for your home, aircon repairs for your office, or regular servicing for a commercial system, <strong>Gauteng Repair Network</strong> has the skill and experience to deliver reliable, energy efficient climate control across <strong>Pretoria, Johannesburg, Midrand</strong>, and all of Gauteng.
+                Whether you need a new installation for your home, aircon repairs for your office, or regular servicing for a commercial system, <strong>Gauteng Repair Network</strong> has the skill and experience to deliver reliable, energy efficient climate control across <strong>Pretoria, Johannesburg, Midrand</strong>, and all of Gauteng. Searching for aircon repair near me? We cover the whole province with same day response.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
@@ -170,7 +199,7 @@ export default function AirConditioningServicesPage() {
                     Repairs and Gas Refills
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Fast response for breakdowns, refrigerant leaks, compressor issues, thermostat faults, and all aircon repairs.
+                    Fast response for breakdowns, refrigerant leaks, compressor issues, thermostat faults, and all aircon repairs. Need an aircon regas? We handle gas refills and recharging on site.
                   </p>
                 </div>
 
@@ -185,6 +214,24 @@ export default function AirConditioningServicesPage() {
                 </div>
               </div>
 
+              {/* Symptom-focused section - matches real search intent */}
+              <div className="mt-8 p-6 rounded-xl bg-card border border-border">
+                <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
+                  <AlertCircle className="h-6 w-6 text-secondary" />
+                  Aircon Not Cooling? Here's What It Could Be
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  If your aircon is running but not cooling, the most common causes are a low refrigerant level (needs a regas), a blocked or dirty filter, a faulty compressor, or a thermostat fault. Our technicians diagnose the issue on site and give you an upfront quote before any work starts.
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
+                  <li>Low gas or refrigerant leak, needs a regas or gas refill</li>
+                  <li>Dirty filters or blocked coils restricting airflow</li>
+                  <li>Faulty compressor or capacitor</li>
+                  <li>Thermostat or control board fault</li>
+                  <li>Outdoor unit issues affecting cooling performance</li>
+                </ul>
+              </div>
+
               <div className="mt-8 p-6 rounded-xl bg-gradient-to-br from-secondary/5 to-accent/5 border border-border">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
                   <Clock className="h-6 w-6 text-secondary" />
@@ -194,6 +241,39 @@ export default function AirConditioningServicesPage() {
                   Air conditioning breakdowns never happen at a convenient time. We offer same day emergency repairs across Gauteng. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for immediate help.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section - built from real customer search queries */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Common Air Conditioning Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about aircon repairs and servicing.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
