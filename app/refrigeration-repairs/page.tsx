@@ -6,15 +6,15 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 import { Refrigerator, Snowflake, Wrench, Clock, Award, ShieldCheck, Store, Warehouse } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Refrigeration Repairs in Gauteng | Fridge and Freezer Repair | Gauteng Repair Network",
+  title: "Fridge Repair Near Me in Gauteng | Fridge & Freezer Repair, Regassing | Gauteng Repair Network",
   description:
-    "Fast, reliable refrigeration repairs in Gauteng. We fix fridges, freezers, and chest freezers with cooling faults, gas leaks, thermostat and compressor problems. Serving Pretoria, Johannesburg and Midrand. Same day callouts available.",
+    "Fast fridge repair near you in Gauteng. Fridge compressor running but not cooling? Freezer not freezing? We fix fridges, freezers and chest freezers with regassing, gas leaks, thermostat and compressor problems. Serving Pretoria, Johannesburg, Midrand and Vereeniging. Same day callouts.",
   keywords:
-    "refrigeration repairs Gauteng, fridge repair Johannesburg, freezer repair Pretoria, chest freezer repair, fridge not cooling, refrigeration technician Midrand",
+    "fridge repair near me, fridge repairs, fridge regassing, fridge regas, fridge repair midrand, fridge compressor not cooling, freezer not freezing, refrigeration repairs Gauteng, fridge repair Johannesburg, freezer repair Pretoria, chest freezer repair, fridge not cooling, refrigeration technician Midrand",
   openGraph: {
-    title: "Refrigeration Repairs | Gauteng Repair Network Gauteng",
+    title: "Fridge Repair Near Me | Gauteng Repair Network",
     description:
-      "Expert fridge and freezer repairs for homes and businesses across Gauteng. Same day callouts and honest pricing.",
+      "Expert fridge and freezer repairs, regassing and fault finding for homes and businesses across Gauteng. Same day callouts and honest pricing.",
     images: [
       {
         url: "/refrigeration-repair-technician.png",
@@ -25,6 +25,34 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "My fridge compressor is running but it's not cooling. What's wrong?",
+    answer:
+      "This is one of the most common fridge faults we see. It usually points to a refrigerant gas leak (the compressor runs but there's no gas to actually cool with), a blocked or faulty condenser, or a failing start relay or capacitor. It's rarely the compressor itself. We diagnose the exact cause on site and quote you before starting any work.",
+  },
+  {
+    question: "My freezer isn't freezing but the fridge side is working fine. Why?",
+    answer:
+      "On a combination fridge freezer, this usually means the evaporator fan has failed, the defrost system is stuck in a cycle, or there's a blockage in the airflow between compartments. It's a common, fixable fault and doesn't usually mean the whole unit needs replacing.",
+  },
+  {
+    question: "What is fridge regassing and do I need it?",
+    answer:
+      "Regassing means recharging your fridge or freezer with refrigerant gas after a leak or gradual loss over time. Signs you may need a regas include the unit running constantly, poor cooling despite the compressor working, or ice building up unevenly. We test for leaks first, since regassing without fixing a leak just means the gas escapes again.",
+  },
+  {
+    question: "How quickly can you get to me for a fridge repair?",
+    answer:
+      "We offer same day callouts across Gauteng, including Pretoria, Johannesburg, Midrand, Sandton, and surrounding areas. For urgent breakdowns where food or stock is at risk, call us directly for the fastest response.",
+  },
+  {
+    question: "Is it worth repairing my fridge or should I replace it?",
+    answer:
+      "It depends on the age of the unit, the cost of the part needed, and how it compares to replacement cost. We always give you an honest recommendation, not just a repair quote, so you can make the call that makes financial sense.",
+  },
+]
 
 export default function RefrigerationRepairsPage() {
   return (
@@ -40,6 +68,7 @@ export default function RefrigerationRepairsPage() {
         "Freezer and chest freezer repairs",
         "Cooling and temperature fault finding",
         "Refrigerant gas leak detection and refills",
+        "Fridge and freezer regassing",
         "Thermostat and control repairs",
         "Compressor diagnosis and replacement",
         "Door seal and gasket replacement",
@@ -154,6 +183,39 @@ export default function RefrigerationRepairsPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section - built from real customer search queries */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Common Fridge and Freezer Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about fridge and freezer repairs.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
