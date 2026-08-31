@@ -1,0 +1,15 @@
+<svg width="640" height="180" viewBox="0 0 640 180" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="90" cy="90" r="72" fill="#0D5C5C"/>
+  <g transform="translate(90,90)" stroke="#E8A33D" stroke-width="11" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-46" x2="0" y2="46"/>
+    <line x1="-40" y1="-23" x2="40" y2="23"/>
+    <line x1="-40" y1="23" x2="40" y2="-23"/>
+    <line x1="-13" y1="-38" x2="0" y2="-46"/>
+    <line x1="13" y1="-38" x2="0" y2="-46"/>
+    <line x1="-13" y1="38" x2="0" y2="46"/>
+    <line x1="13" y1="38" x2="0" y2="46"/>
+  </g>
+  <circle cx="90" cy="90" r="7" fill="#E8A33D"/>
+  <text x="196" y="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="38" fill="#0D5C5C">Gauteng Repair Network</text>
+  <text x="196" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="16" fill="#E8A33D" letter-spacing="2">FAST. TRUSTED. GAUTENG WIDE.</text>
+</svg>
