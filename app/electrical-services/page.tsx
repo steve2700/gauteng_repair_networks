@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Safe electrical connections, wiring, and fault finding for appliance, air conditioning, and refrigeration installations across Gauteng. Serving Pretoria, Johannesburg and Midrand. Same day quotes available.",
   keywords:
-    "electrician Gauteng, appliance wiring Pretoria, aircon power connection Johannesburg, electrical fault finding Midrand, isolator installation, dedicated circuit",
+    "electrician Gauteng, appliance wiring Pretoria, aircon power connection Johannesburg, electrical fault finding Midrand, isolator installation, dedicated circuit, tripping breaker fault, earth leakage tripping",
   openGraph: {
     title: "Electrical Services | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,34 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "Why does my earth leakage or breaker keep tripping?",
+    answer:
+      "This usually points to a fault on a specific circuit, a damaged appliance drawing incorrect current, or moisture affecting a connection. We trace the fault to its source and fix the actual cause, rather than just resetting the breaker as a temporary fix.",
+  },
+  {
+    question: "Do I need a dedicated circuit for my aircon or cold room?",
+    answer:
+      "In most cases, yes. Air conditioners and cold room refrigeration units draw significant power and should run on their own dedicated circuit rather than sharing with other appliances. This protects your equipment and reduces the risk of tripping or overheating.",
+  },
+  {
+    question: "Can you provide a Certificate of Compliance (COC)?",
+    answer:
+      "Ask us directly when you book, as COC issuance depends on the registration status of the electrician assigned to your job. We'll confirm upfront whether a COC is available for your specific work so you know exactly what you're getting.",
+  },
+  {
+    question: "Do you handle the electrical work as part of an appliance or aircon install?",
+    answer:
+      "Yes, we can handle the electrical connection alongside your appliance, aircon, or cold room installation in a single callout, so you're not coordinating a separate electrician.",
+  },
+  {
+    question: "Is it normal for a new appliance installation to need electrical work?",
+    answer:
+      "It's common, especially for high draw equipment like aircons, ovens, and cold rooms. Older homes and buildings in particular may need an isolator, a new circuit, or a board upgrade to safely handle the load.",
+  },
+]
 
 export default function ElectricalServicesPage() {
   return (
@@ -179,6 +207,39 @@ export default function ElectricalServicesPage() {
                   Whether you are installing a new air conditioner or tracing a fault that keeps tripping your power, our team can help. Call us on <strong className="text-secondary">+27 69 382 4908</strong> for a free quote across Gauteng.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Electrical Services Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions we get asked most often about electrical work for appliances and cooling equipment.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
