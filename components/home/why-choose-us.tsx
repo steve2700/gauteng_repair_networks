@@ -1,51 +1,51 @@
 import Image from "next/image"
-import { CheckCircle, Shield, Users, Clock, Award, Snowflake, ArrowRight, Star } from "lucide-react"
+import { CheckCircle, Shield, Users, Clock, Award, Snowflake, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 const reasons = [
   {
     icon: Users,
-    title: "Experienced Technicians",
+    title: "A Network of Skilled Technicians",
     description:
-      "Our team is made up of skilled appliance, air conditioning, and refrigeration technicians with years of hands on experience across Gauteng.",
+      "We work with experienced appliance, air conditioning, and refrigeration technicians across Gauteng, so you're matched with the right expert for the job.",
   },
   {
     icon: Shield,
     title: "Insured and Certified",
     description:
-      "Our technicians are refrigerant handling certified and every callout is fully insured, so you can book with complete peace of mind.",
+      "The technicians in our network are refrigerant handling certified and every callout is fully insured, so you can book with complete peace of mind.",
   },
   {
     icon: CheckCircle,
     title: "Honest, Upfront Pricing",
     description:
-      "No hidden costs or surprises. We give you a clear quote before any work starts and stick to it, with transparent service from start to finish.",
+      "No hidden costs or surprises. You get a clear quote before any work starts, with transparent service from start to finish.",
   },
   {
     icon: Award,
     title: "Quality Workmanship",
     description:
-      "We use quality parts and proven repair methods to deliver lasting fixes that keep your appliances and cooling systems running.",
+      "We only work with technicians who use quality parts and proven repair methods to deliver lasting fixes for your appliances and cooling systems.",
   },
   {
     icon: Clock,
     title: "Fast, Same Day Callouts",
     description:
-      "We know a broken fridge or freezer cannot wait. Our teams respond quickly with same day and 24 hour emergency callouts across Gauteng.",
+      "We know a broken fridge or freezer cannot wait. Our network responds quickly with same day and 24 hour emergency callouts across Gauteng.",
   },
   {
     icon: Snowflake,
     title: "Cooling Specialists",
     description:
-      "From walk in cold rooms to household fridges and split unit air conditioners, cooling is what we do best every single day.",
+      "From walk in cold rooms to household fridges and split unit air conditioners, cooling repairs are our core focus every single day.",
   },
 ]
 
 const stats = [
-  { value: "500+", label: "Clients Served", sublabel: "Across Gauteng" },
   { value: "Same Day", label: "Callouts", sublabel: "For Most Bookings" },
-  { value: "98%", label: "Client Satisfaction", sublabel: "5 Star Reviews" },
+  { value: "Free", label: "Quotes", sublabel: "No Obligation" },
+  { value: "11", label: "Areas Served", sublabel: "Across Gauteng" },
   { value: "24/7", label: "Emergency Support", sublabel: "Always Available" },
 ]
 
@@ -84,24 +84,16 @@ export function WhyChooseUs() {
 
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-6 mb-8">
-              {stats.map((stat, index) => (
+              {stats.map((stat) => (
                 <div
                   key={stat.label}
                   className="group text-center sm:text-left bg-card border border-border rounded-xl p-4 transition-all hover:border-secondary hover:shadow-lg hover:-translate-y-1"
-                  itemProp="award"
                 >
                   <p className="text-3xl font-bold text-secondary mb-1 group-hover:scale-110 transition-transform inline-block">
                     {stat.value}
                   </p>
                   <p className="text-sm font-semibold text-foreground">{stat.label}</p>
                   <p className="text-xs text-muted-foreground">{stat.sublabel}</p>
-                  {index === 2 && (
-                    <div className="flex items-center justify-center sm:justify-start gap-0.5 mt-1">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="h-3 w-3 fill-accent text-accent" aria-hidden="true" />
-                      ))}
-                    </div>
-                  )}
                 </div>
               ))}
             </div>
@@ -229,7 +221,7 @@ export function WhyChooseUs() {
             Ready to Experience the Gauteng Repair Network Difference?
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Join hundreds of satisfied clients across Gauteng who trust us to keep their appliances and cooling systems running.
+            Join Gauteng residents and businesses who trust us to connect them with the right technician, fast.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

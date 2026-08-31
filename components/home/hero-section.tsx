@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Phone, CheckCircle, Shield, Award, Star, Zap, Clock, Users } from "lucide-react"
+import { ArrowRight, Phone, CheckCircle, Shield, Award, Zap, Clock, MapPin } from "lucide-react"
 import { WhatsAppIcon } from "@/components/icons/whatsapp-icon"
 
 export function HeroSection() {
@@ -34,25 +34,17 @@ export function HeroSection() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Content */}
           <div className="text-center lg:text-left">
-            {/* Trust Badge with Rating */}
+            {/* Trust Badge */}
             <div className="mb-4 sm:mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-medium text-white backdrop-blur-sm border border-white/10 hover:bg-white/15 transition-all shadow-lg">
               <Shield className="h-4 w-4 text-accent" aria-hidden="true" />
-              <span className="hidden sm:inline">Gauteng's Trusted Repair Team</span>
+              <span className="hidden sm:inline">Gauteng's Trusted Repair Network</span>
               <span className="sm:hidden">Trusted in Gauteng</span>
-              <div className="flex items-center gap-0.5 ml-2" itemProp="aggregateRating" itemScope itemType="https://schema.org/AggregateRating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
-                <meta itemProp="reviewCount" content="150" />
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-3 w-3 fill-accent text-accent" aria-hidden="true" />
-                ))}
-              </div>
             </div>
 
             {/* Main Headline */}
             <h1 className="mb-4 sm:mb-6 text-balance text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl" itemProp="name">
-              <span className="block">We Keep Gauteng Cool.</span>
-              <span className="block text-accent">Fast, Reliable Repairs.</span>
+              <span className="block">Your Fast Link to</span>
+              <span className="block text-accent">Trusted Local Technicians.</span>
               <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 text-primary-foreground/90">
                 Appliances, Aircon &amp; Refrigeration
               </span>
@@ -60,12 +52,12 @@ export function HeroSection() {
 
             {/* Description */}
             <p className="mb-6 sm:mb-8 text-pretty text-base sm:text-lg text-primary-foreground/80 md:text-xl max-w-2xl mx-auto lg:mx-0" itemProp="description">
-              <strong className="text-white">Gauteng Repair Network</strong> is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across{" "}
+              <strong className="text-white">Gauteng Repair Network</strong> connects you with vetted, experienced technicians for appliance repairs, air conditioning, cold room installation and commercial refrigeration across{" "}
               <strong className="text-white">Pretoria, Johannesburg, Midrand</strong> and greater{" "}
-              <strong className="text-white">Gauteng</strong>. Experienced technicians, same day callouts.
+              <strong className="text-white">Gauteng</strong>. One call, the right technician, fast.
             </p>
 
-            {/* CTA Buttons — kept high and compact so all three are visible without scrolling on mobile */}
+            {/* CTA Buttons */}
             <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row sm:justify-center lg:justify-start">
               <Button
                 asChild
@@ -100,37 +92,37 @@ export function HeroSection() {
               </Button>
             </div>
 
-            {/* Trust Indicators — hidden on small screens so the CTAs stay above the fold */}
+            {/* Trust Indicators */}
             <div className="mt-8 hidden sm:flex flex-wrap justify-center gap-4 lg:justify-start">
               <div className="flex items-center gap-2.5 text-sm text-primary-foreground/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/20">
                   <CheckCircle className="h-4 w-4 text-accent" aria-hidden="true" />
                 </div>
-                <span className="font-medium">Experienced Technicians</span>
+                <span className="font-medium">Vetted Technician Network</span>
               </div>
               <div className="flex items-center gap-2.5 text-sm text-primary-foreground/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/20">
                   <Award className="h-4 w-4 text-accent" aria-hidden="true" />
                 </div>
-                <span className="font-medium">Quality Guaranteed</span>
+                <span className="font-medium">Honest, Upfront Quotes</span>
               </div>
               <div className="flex items-center gap-2.5 text-sm text-primary-foreground/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/20">
                   <Clock className="h-4 w-4 text-accent" aria-hidden="true" />
                 </div>
-                <span className="font-medium">24 Hour Emergency Callout</span>
+                <span className="font-medium">Same Day Response</span>
               </div>
             </div>
 
-            {/* Quick Stats */}
+            {/* Quick Stats - honest, non-numeric claims only */}
             <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-primary-foreground/70">
               <div className="flex items-center gap-2">
                 <Zap className="h-4 w-4 text-accent" aria-hidden="true" />
-                <span>Same day callouts available</span>
+                <span>Fast quotes, no obligation</span>
               </div>
               <div className="flex items-center gap-2">
-                <Users className="h-4 w-4 text-accent" aria-hidden="true" />
-                <span>500+ Happy clients</span>
+                <MapPin className="h-4 w-4 text-accent" aria-hidden="true" />
+                <span>Covering all of Gauteng</span>
               </div>
             </div>
           </div>
@@ -177,8 +169,8 @@ export function HeroSection() {
               </div>
 
               <div className="absolute -top-4 right-12 rounded-xl bg-secondary px-4 py-3 shadow-xl ring-1 ring-white/10 hover:scale-105 transition-transform">
-                <p className="text-2xl font-bold text-secondary-foreground">10+</p>
-                <p className="text-xs text-secondary-foreground/80">Years Experience</p>
+                <p className="text-lg font-bold text-secondary-foreground">Gauteng</p>
+                <p className="text-xs text-secondary-foreground/80">Wide Coverage</p>
               </div>
             </div>
           </div>
@@ -187,12 +179,12 @@ export function HeroSection() {
         {/* Trust Badges */}
         <div className="mt-16 border-t border-white/10 pt-10">
           <p className="text-center text-sm text-primary-foreground/60 mb-6 font-medium">
-            Trusted by 500+ residential, commercial and industrial clients across Gauteng
+            Connecting Gauteng homes and businesses with technicians who get the job done right
           </p>
           <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-8">
             <div className="flex items-center gap-2 text-white/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm hover:bg-white/10 transition-all">
               <Shield className="h-5 w-5 text-accent" aria-hidden="true" />
-              <span className="text-sm font-semibold">Licensed Technicians</span>
+              <span className="text-sm font-semibold">Vetted Technician Network</span>
             </div>
             <div className="flex items-center gap-2 text-white/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm hover:bg-white/10 transition-all">
               <Award className="h-5 w-5 text-accent" aria-hidden="true" />
@@ -200,7 +192,7 @@ export function HeroSection() {
             </div>
             <div className="flex items-center gap-2 text-white/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm hover:bg-white/10 transition-all">
               <CheckCircle className="h-5 w-5 text-accent" aria-hidden="true" />
-              <span className="text-sm font-semibold">SABS Compliant</span>
+              <span className="text-sm font-semibold">SABS Compliant Work</span>
             </div>
             <div className="flex items-center gap-2 text-white/90 bg-white/5 rounded-lg px-4 py-2 backdrop-blur-sm hover:bg-white/10 transition-all">
               <Shield className="h-5 w-5 text-accent" aria-hidden="true" />

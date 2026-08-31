@@ -131,7 +131,7 @@ export function ServicesOverview() {
             Appliance, Aircon and Refrigeration Repairs in Gauteng
           </h2>
           <p className="text-pretty text-lg text-muted-foreground leading-relaxed" itemProp="description">
-            From fridges and freezers to air conditioning and cold rooms, <strong>Gauteng Repair Network</strong> keeps homes and businesses cool across <strong>Pretoria, Johannesburg, and Gauteng</strong>. One trusted team for all your cooling and appliance needs.
+            From fridges and freezers to air conditioning and cold rooms, <strong>Gauteng Repair Network</strong> connects homes and businesses with trusted technicians across <strong>Pretoria, Johannesburg, and Gauteng</strong>. One call for all your cooling and appliance needs.
           </p>
         </div>
 
@@ -235,18 +235,18 @@ export function ServicesOverview() {
               Need a Repair Today?
             </h3>
             <p className="text-white/90 mb-8 max-w-2xl mx-auto">
-              Get a free, no obligation quote from Gauteng&apos;s trusted appliance and refrigeration team. Experienced technicians, same day callouts, and quality workmanship every time.
+              Get a free, no obligation quote and we&apos;ll connect you with a trusted technician. Same day callouts and quality workmanship, every time.
             </p>
 
-            {/* Stats */}
+            {/* Stats - factual only, no fabricated client counts */}
             <div className="flex flex-wrap justify-center gap-8 mb-8 text-white">
               <div>
                 <div className="text-3xl font-bold text-accent">10</div>
                 <div className="text-sm text-white/80">Service Categories</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent">500+</div>
-                <div className="text-sm text-white/80">Happy Clients</div>
+                <div className="text-3xl font-bold text-accent">11</div>
+                <div className="text-sm text-white/80">Areas Served</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-accent">Same Day</div>

@@ -33,7 +33,7 @@ export function CTASection() {
             Ready to Book a Repair?
           </h2>
           <p className="mb-10 text-pretty text-lg text-primary-foreground/80 md:text-xl">
-            Contact Gauteng Repair Network today for a free quote. Our team is ready to help with appliance repairs, air conditioning, cold rooms, and commercial refrigeration across Pretoria, Johannesburg, and the rest of Gauteng.
+            Contact Gauteng Repair Network today for a free quote. We&apos;ll connect you with the right technician for appliance repairs, air conditioning, cold rooms, and commercial refrigeration across Pretoria, Johannesburg, and the rest of Gauteng.
           </p>
 
           <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -97,7 +97,7 @@ export function CTASection() {
             </div>
           </div>
 
-          {/* Stats */}
+          {/* Stats - factual, non-fabricated only */}
           <div className="flex flex-wrap items-center justify-center gap-8 border-t border-primary-foreground/20 pt-12">
             <div className="text-center">
               <p className="text-4xl font-bold text-accent">10</p>
@@ -105,18 +105,18 @@ export function CTASection() {
             </div>
             <div className="h-12 w-px bg-primary-foreground/20" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-accent">11+</p>
+              <p className="text-4xl font-bold text-accent">11</p>
               <p className="text-sm text-primary-foreground/70">Areas Served</p>
             </div>
             <div className="h-12 w-px bg-primary-foreground/20" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-accent">500+</p>
-              <p className="text-sm text-primary-foreground/70">Clients Served</p>
+              <p className="text-4xl font-bold text-accent">Same Day</p>
+              <p className="text-sm text-primary-foreground/70">Callouts Available</p>
             </div>
             <div className="h-12 w-px bg-primary-foreground/20" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-accent">98%</p>
-              <p className="text-sm text-primary-foreground/70">Client Satisfaction</p>
+              <p className="text-4xl font-bold text-accent">24/7</p>
+              <p className="text-sm text-primary-foreground/70">Emergency Support</p>
             </div>
           </div>
 
