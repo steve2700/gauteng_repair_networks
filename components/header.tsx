@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import {
@@ -153,7 +152,7 @@ export function Header() {
               info@gautengrepairnetwork.co.za
             </a>
             <a
-              href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
+              href="https://www.google.com/maps?q=Gauteng+Repair+Network+Gauteng+South+Africa"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-accent transition-colors"
@@ -165,24 +164,21 @@ export function Header() {
           <div className="flex items-center gap-4">
             <span className="text-xs text-white/70">Follow Us:</span>
             <div className="flex items-center gap-3">
-              <a
-                href="https://www.facebook.com/coldfixservices"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-                aria-label="Facebook"
+              {/* Social links are placeholders until real profiles are set up - not yet clickable */}
+              <span
+                className="text-white/30 cursor-not-allowed"
+                aria-label="Facebook (coming soon)"
+                title="Coming soon"
               >
                 <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="https://www.instagram.com/coldfixservices"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-                aria-label="Instagram"
+              </span>
+              <span
+                className="text-white/30 cursor-not-allowed"
+                aria-label="Instagram (coming soon)"
+                title="Coming soon"
               >
                 <Instagram className="h-4 w-4" />
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -190,25 +186,13 @@ export function Header() {
 
       {/* Main Header */}
       <div className="container mx-auto flex h-16 lg:h-20 items-center justify-between px-4 lg:px-8">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="relative flex h-11 w-11 items-center justify-center rounded-xl overflow-hidden shadow-lg bg-white">
-            <Image
-              src="/logo-icon.png"
-              alt="Gauteng Repair Network Logo"
-              width={44}
-              height={44}
-              className="object-cover"
-              priority
-              quality={90}
-            />
-            <div className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full bg-accent border-2 border-background"></div>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xl font-bold text-primary leading-tight tracking-tight">
-              COLD <span className="text-accent">FIX</span>
-            </span>
-            <span className="hidden text-xs text-muted-foreground sm:block">Keeping Gauteng Cool</span>
-          </div>
+        <Link href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo-horizontal.svg"
+            alt="Gauteng Repair Network"
+            className="h-10 w-auto sm:h-12"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -328,19 +312,16 @@ export function Header() {
               <div className="bg-primary p-6 text-primary-foreground">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg overflow-hidden bg-white">
-                      <Image
-                        src="/logo-icon.png"
-                        alt="Gauteng Repair Network"
-                        width={40}
-                        height={40}
-                        className="object-cover"
-                        priority
-                      />
-                    </div>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/logo-icon-transparent.svg"
+                      alt=""
+                      aria-hidden="true"
+                      className="h-9 w-9"
+                    />
                     <div>
-                      <p className="font-bold text-sm">Gauteng Repair Network</p>
-                      <p className="text-xs text-white/70">Keeping Gauteng Cool</p>
+                      <p className="font-bold text-sm text-white">Gauteng Repair Network</p>
+                      <p className="text-xs text-white/70">Fast, Trusted Repairs</p>
                     </div>
                   </div>
                   <Button
@@ -372,7 +353,7 @@ export function Header() {
                     info@gautengrepairnetwork.co.za
                   </a>
                   <a
-                    href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
+                    href="https://www.google.com/maps?q=Gauteng+Repair+Network+Gauteng+South+Africa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:text-white transition-colors"
@@ -382,26 +363,14 @@ export function Header() {
                   </a>
                 </div>
 
-                {/* Social Links in Mobile */}
+                {/* Social Links in Mobile - placeholders until real profiles are set up */}
                 <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/20">
-                  <a
-                    href="https://www.facebook.com/coldfixservices"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/80 hover:text-white transition-colors"
-                    aria-label="Facebook"
-                  >
+                  <span className="text-white/40 cursor-not-allowed" aria-label="Facebook (coming soon)" title="Coming soon">
                     <Facebook className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/coldfixservices"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/80 hover:text-white transition-colors"
-                    aria-label="Instagram"
-                  >
+                  </span>
+                  <span className="text-white/40 cursor-not-allowed" aria-label="Instagram (coming soon)" title="Coming soon">
                     <Instagram className="h-5 w-5" />
-                  </a>
+                  </span>
                 </div>
               </div>
 
@@ -527,4 +496,4 @@ export function Header() {
       </div>
     </header>
   )
-} 
+}
