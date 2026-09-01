@@ -191,7 +191,7 @@ export function Header() {
           <img
             src="/logo-horizontal.svg"
             alt="Gauteng Repair Network"
-            className="h-10 w-auto sm:h-12"
+            className="h-12 w-auto"
           />
         </Link>
 
