@@ -32,7 +32,7 @@ const reasons = [
     icon: Clock,
     title: "Fast, Same Day Callouts",
     description:
-      "We know a broken fridge or freezer cannot wait. Our network responds quickly with same day and 24 hour emergency callouts across Gauteng.",
+      "We know a broken fridge or freezer cannot wait. Our network responds quickly with same day emergency callouts across Gauteng.",
   },
   {
     icon: Snowflake,
@@ -46,7 +46,7 @@ const stats = [
   { value: "Same Day", label: "Callouts", sublabel: "For Most Bookings" },
   { value: "Free", label: "Quotes", sublabel: "No Obligation" },
   { value: "11", label: "Areas Served", sublabel: "Across Gauteng" },
-  { value: "24/7", label: "Emergency Support", sublabel: "Always Available" },
+  { value: "Extended Hours", label: "Emergency Support", sublabel: "Same Day Response" },
 ]
 
 export function WhyChooseUs() {

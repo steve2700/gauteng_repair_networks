@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Gauteng Repair Network | Free Quote in Gauteng",
     description:
-      "Get in touch for all air conditioning, refrigeration, and appliance repair needs in Pretoria, Johannesburg, and Gauteng. Free quotes, 24/7 emergency support, same day response.",
+      "Get in touch for all air conditioning, refrigeration, and appliance repair needs in Pretoria, Johannesburg, and Gauteng. Free quotes, Extended Hours emergency support, same day response.",
     images: [
       {
         url: "/og-image.png",
@@ -50,7 +50,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Business Hours",
-    details: ["Mon to Fri: 8:00 AM to 5:00 PM", "24/7 Emergency Support"],
+    details: ["Mon to Fri: 8:00 AM to 5:00 PM", "Extended Hours Emergency Support"],
     highlight: false,
   },
 ]
@@ -83,7 +83,7 @@ const benefits = [
   },
   {
     icon: Zap,
-    text: "24/7 emergency support",
+    text: "Extended Hours emergency support",
   },
 ]
 
@@ -103,7 +103,7 @@ export default function ContactPage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2.5 text-sm font-medium text-white backdrop-blur-sm border border-white/10">
               <Phone className="h-4 w-4 text-accent animate-pulse" aria-hidden="true" />
-              <span>Available 24/7 for Emergencies</span>
+              <span>Available Extended Hours for Emergencies</span>
             </div>
 
             <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">

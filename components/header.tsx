@@ -68,7 +68,7 @@ const services = [
   {
     title: "Emergency Callout Service",
     href: "/emergency-callout-service",
-    description: "Same day and 24 hour breakdown response",
+    description: "Same day breakdown response",
     icon: Clock,
   },
   {

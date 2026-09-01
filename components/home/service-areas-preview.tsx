@@ -86,7 +86,7 @@ const benefits = [
   },
   {
     icon: Phone,
-    text: "24/7 emergency support hotline available",
+    text: "Extended Hours emergency support hotline available",
     highlight: false,
   },
 ]

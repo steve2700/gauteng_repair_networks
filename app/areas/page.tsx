@@ -9,12 +9,12 @@ import { MapPin, Phone, ArrowRight, CheckCircle, Clock, Navigation, Star, Award,
 export const metadata: Metadata = {
   title: "Service Areas | Gauteng Repair Network - Pretoria, Johannesburg, Midrand & All Gauteng",
   description:
-    "Gauteng Repair Network provides appliance, air conditioning, and refrigeration repairs throughout Gauteng including Pretoria, Johannesburg, Sandton, Centurion, Midrand, Fourways, and 10 major areas. Same day quotes and 24 hour emergency support.",
+    "Gauteng Repair Network provides appliance, air conditioning, and refrigeration repairs throughout Gauteng including Pretoria, Johannesburg, Sandton, Centurion, Midrand, Fourways, and 10 major areas. Same day quotes and extended hours emergency support.",
   keywords: "service areas Gauteng, fridge repair Pretoria, aircon repair Johannesburg, appliance repairs Midrand, Sandton refrigeration, Centurion aircon, Fourways appliance repair",
   openGraph: {
     title: "Service Areas | Gauteng Repair Network Serving All Gauteng",
     description:
-      "Appliance, air conditioning, and refrigeration repairs across all major areas in Gauteng province. Same day callouts, free quotes, and 24 hour emergency support.",
+      "Appliance, air conditioning, and refrigeration repairs across all major areas in Gauteng province. Same day callouts, free quotes, and extended hours emergency support.",
     images: [
       {
         url: "/gauteng-areas-map.webp",
@@ -158,7 +158,7 @@ const stats = [
   { value: "10+", label: "Service Areas", sublabel: "Across Gauteng" },
   { value: "500+", label: "Repairs Completed", sublabel: "Homes & Businesses" },
   { value: "Same Day", label: "Callouts", sublabel: "Available Daily" },
-  { value: "24/7", label: "Emergency Support", sublabel: "Always Available" },
+  { value: "Extended Hours", label: "Emergency Support", sublabel: "Same Day Response" },
 ]
 
 const popularServices = [
@@ -485,7 +485,7 @@ export default function ServiceAreasPage() {
             </div>
 
             <p className="text-sm text-primary-foreground/70">
-              24 Hour Emergency Support • Same Day Callouts • Free Quotes • Licensed &amp; Insured
+              Extended Hours Emergency Support • Same Day Callouts • Free Quotes • Licensed &amp; Insured
             </p>
           </div>
         </div>

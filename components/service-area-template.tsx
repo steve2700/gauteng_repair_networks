@@ -363,7 +363,7 @@ export function ServiceAreaTemplate({
               </Button>
             </div>
             <p className="mt-6 text-sm text-primary-foreground/70">
-              Response time in {areaName}: {responseTime} • Available 24/7 for emergencies
+              Response time in {areaName}: {responseTime} • Available Extended Hours for emergencies
             </p>
           </div>
         </div>

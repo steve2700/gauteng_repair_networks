@@ -115,7 +115,7 @@ export function CTASection() {
             </div>
             <div className="h-12 w-px bg-primary-foreground/20" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-accent">24/7</p>
+              <p className="text-4xl font-bold text-accent">Extended Hours</p>
               <p className="text-sm text-primary-foreground/70">Emergency Support</p>
             </div>
           </div>

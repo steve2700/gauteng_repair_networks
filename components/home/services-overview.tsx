@@ -66,10 +66,10 @@ const services = [
     icon: Clock,
     title: "Emergency Callout Service",
     description:
-      "Same day and 24 hour breakdown response when your fridge, freezer, or cold room stops cooling.",
+      "Same day breakdown response when your fridge, freezer, or cold room stops cooling.",
     href: "/emergency-callout-service",
     image: "/property-maintenance-worker-repairing-fixtures-in-a.jpg",
-    keywords: "emergency repair, breakdown response, 24 hour callout",
+    keywords: "emergency repair, breakdown response, extended hours callout",
   },
   {
     icon: Wrench,
@@ -253,7 +253,7 @@ export function ServicesOverview() {
                 <div className="text-sm text-white/80">Callouts Available</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent">24/7</div>
+                <div className="text-3xl font-bold text-accent">Extended Hours</div>
                 <div className="text-sm text-white/80">Emergency Support</div>
               </div>
             </div>

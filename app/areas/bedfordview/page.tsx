@@ -40,7 +40,7 @@ export default function BedfordviewPage() {
         "Refrigerant handling certified and fully insured teams",
         "Honest, upfront quotes with no hidden costs",
         "Quality parts and lasting repairs on every job",
-        "24 hour emergency support for cooling breakdowns",
+        "extended hours emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
         { name: "Johannesburg", href: "/areas/johannesburg" },

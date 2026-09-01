@@ -25,7 +25,7 @@ const trustBadges = [
   { icon: Award, text: "Licensed & Certified" },
   { icon: Shield, text: "Fully Insured" },
   { icon: Star, text: "Hundreds Served" },
-  { icon: Clock, text: "24/7 Support" },
+  { icon: Clock, text: "Extended Hours Support" },
 ]
 
 export function ServicePageTemplate({
@@ -393,7 +393,7 @@ export function ServicePageTemplate({
             </div>
 
             <p className="text-sm text-primary-foreground/70">
-              24/7 Emergency Support • Licensed & Insured • Serving All Gauteng • Free Consultations
+              Extended Hours Emergency Support • Licensed & Insured • Serving All Gauteng • Free Consultations
             </p>
           </div>
         </div>

@@ -146,7 +146,7 @@ const stats = [
   { value: "10+", label: "Service Categories", icon: Award },
   { value: "100s", label: "Clients Served", icon: CheckCircle },
   { value: "10+", label: "Years Experience", icon: Clock },
-  { value: "24/7", label: "Emergency Support", icon: Phone },
+  { value: "Extended Hours", label: "Emergency Support", icon: Phone },
 ]
 
 const benefits = [
@@ -419,7 +419,7 @@ export default function ServicesPage() {
             </div>
 
             <p className="text-sm text-primary-foreground/70">
-              24/7 Emergency Support • Same day Quotes • Licensed and Insured • Serving All Gauteng
+              Extended Hours Emergency Support • Same day Quotes • Licensed and Insured • Serving All Gauteng
             </p>
           </div>
         </div>

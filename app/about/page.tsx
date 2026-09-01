@@ -66,7 +66,7 @@ const stats = [
   { value: "100s", label: "Clients Served", sublabel: "Across Gauteng" },
   { value: "10+", label: "Years Experience", sublabel: "In Cooling" },
   { value: "5 Star", label: "Client Rating", sublabel: "Trusted Service" },
-  { value: "24/7", label: "Emergency Support", sublabel: "Always Available" },
+  { value: "Extended Hours", label: "Emergency Support", sublabel: "Same Day Response" },
 ]
 
 export default function AboutPage() {
@@ -147,7 +147,7 @@ export default function AboutPage() {
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-muted">
                   <Clock className="h-5 w-5 text-secondary flex-shrink-0" aria-hidden="true" />
                   <div>
-                    <p className="text-sm font-semibold">24/7 Available</p>
+                    <p className="text-sm font-semibold">Extended Hours Available</p>
                     <p className="text-xs text-muted-foreground">Emergency Support</p>
                   </div>
                 </div>
@@ -387,7 +387,7 @@ export default function AboutPage() {
             </div>
 
             <p className="text-sm text-primary-foreground/70">
-              Serving Gauteng • Licensed and Insured • 24/7 Emergency Support
+              Serving Gauteng • Licensed and Insured • Extended Hours Emergency Support
             </p>
           </div>
         </div>

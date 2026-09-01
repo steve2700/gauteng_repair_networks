@@ -40,7 +40,7 @@ export default function MorningsidePage() {
         "Refrigerant handling certified and fully insured teams",
         "Discrete, professional service with attention to detail",
         "Honest, upfront quotes with no hidden costs",
-        "24 hour emergency support for cooling breakdowns",
+        "extended hours emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
         { name: "Sandton", href: "/areas/sandton" },

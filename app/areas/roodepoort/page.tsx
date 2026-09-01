@@ -63,7 +63,7 @@ export default function RoodepoortPage() {
         "Refrigerant handling certified and fully insured teams",
         "Honest, upfront quotes with no hidden costs",
         "Quality parts and lasting repairs on every job",
-        "24 hour emergency support for cooling breakdowns",
+        "extended hours emergency support for cooling breakdowns",
       ]}
       nearbyAreas={[
         { name: "Randburg", href: "/areas/randburg" },
@@ -151,7 +151,7 @@ export default function RoodepoortPage() {
                 <p className="text-sm text-muted-foreground">
                   <strong>Based in:</strong> Gauteng, South Africa<br />
                   <strong>Response Time:</strong> Same day across Roodepoort<br />
-                  <strong>Emergency Service:</strong> Available 24/7
+                  <strong>Emergency Service:</strong> Available Extended Hours
                 </p>
               </div>
             </div>
