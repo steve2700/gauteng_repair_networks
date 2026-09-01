@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import { Facebook, Instagram, Mail, MapPin, Phone, Clock, Award, Shield, Users } from "lucide-react"
 import { WhatsAppIcon } from "@/components/icons/whatsapp-icon"
 
@@ -61,8 +60,8 @@ export function Footer() {
                 <Users className="h-6 w-6 text-accent" />
               </div>
               <div>
-                <h4 className="font-semibold text-white">Trusted Team</h4>
-                <p className="text-sm text-primary-foreground/70">Trusted by hundreds of clients</p>
+                <h4 className="font-semibold text-white">Honest, Upfront Pricing</h4>
+                <p className="text-sm text-primary-foreground/70">Clear quotes before any work</p>
               </div>
             </div>
           </div>
@@ -75,26 +74,20 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4 lg:col-span-2">
             <Link href="/" className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg">
-                <Image
-                  src="/logo-icon.png"
-                  alt="Gauteng Repair Network Logo"
-                  width={48}
-                  height={48}
-                  className="object-cover"
-                  loading="lazy"
-                />
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo-icon.svg"
+                alt="Gauteng Repair Network"
+                className="h-12 w-12 rounded-lg shadow-lg"
+              />
               <div>
-                <h3 className="text-xl font-bold text-white">
-                  COLD <span className="text-accent">FIX</span>
-                </h3>
-                <p className="text-xs text-primary-foreground/70">Keeping Gauteng Cool</p>
+                <h3 className="text-xl font-bold text-white">Gauteng Repair Network</h3>
+                <p className="text-xs text-primary-foreground/70">Fast, Trusted Repairs</p>
               </div>
             </Link>
 
             <p className="max-w-md text-sm leading-relaxed text-primary-foreground/80">
-              Gauteng Repair Network is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across Gauteng. Experienced technicians, same day callouts, quality workmanship every time.
+              Gauteng Repair Network is your trusted partner for appliance repairs, air conditioning, cold room installation and commercial refrigeration across Gauteng. Same day callouts, quality workmanship every time.
             </p>
 
             {/* Social Media Links */}
@@ -102,25 +95,22 @@ export function Footer() {
               <h4 className="mb-3 text-sm font-semibold text-white">Follow Us</h4>
 
               <div className="flex gap-3">
-                <a
-                  href="https://www.facebook.com/coldfixservices"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10 text-primary-foreground/70 transition-all hover:bg-accent hover:text-white"
-                  aria-label="Facebook"
+                {/* Placeholders until real profiles are set up - not yet clickable */}
+                <span
+                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/5 text-primary-foreground/30 cursor-not-allowed"
+                  aria-label="Facebook (coming soon)"
+                  title="Coming soon"
                 >
                   <Facebook className="h-5 w-5" />
-                </a>
+                </span>
 
-                <a
-                  href="https://www.instagram.com/coldfixservices"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10 text-primary-foreground/70 transition-all hover:bg-accent hover:text-white"
-                  aria-label="Instagram"
+                <span
+                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/5 text-primary-foreground/30 cursor-not-allowed"
+                  aria-label="Instagram (coming soon)"
+                  title="Coming soon"
                 >
                   <Instagram className="h-5 w-5" />
-                </a>
+                </span>
 
                 <a
                   href="https://wa.me/27693824908"
@@ -130,19 +120,6 @@ export function Footer() {
                   aria-label="WhatsApp"
                 >
                   <WhatsAppIcon className="h-5 w-5" />
-                </a>
-              </div>
-
-              {/* Google Reviews */}
-              <div className="mt-4">
-                <a
-                  href="https://www.google.com/search?q=Cold+Fix+Services+Gauteng+reviews"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg bg-primary-foreground/10 px-4 py-2 text-sm text-primary-foreground/80 transition hover:bg-accent hover:text-white"
-                  aria-label="Google Reviews"
-                >
-                  ⭐ ★★★★★ Google Reviews
                 </a>
               </div>
             </div>
@@ -187,7 +164,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://www.google.com/maps?q=Cold+Fix+Services+Gauteng+South+Africa"
+                  href="https://www.google.com/maps?q=Gauteng+Repair+Network+Gauteng+South+Africa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-3"
@@ -230,7 +207,7 @@ export function Footer() {
                 <Clock className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" />
                 <div className="text-sm text-primary-foreground/80">
                   <div className="font-semibold text-white">Mon to Fri: 8:00 to 17:00</div>
-                  <div className="text-accent">24 Hour Emergency Support</div>
+                  <div className="text-accent">Extended Hours, Same Day Repairs</div>
                 </div>
               </li>
             </ul>
