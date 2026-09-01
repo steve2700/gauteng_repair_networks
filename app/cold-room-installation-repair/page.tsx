@@ -6,15 +6,15 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 import { Warehouse, Snowflake, Wrench, Clock, Award, ShieldCheck, Store, Refrigerator } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Cold Room Installation and Repair in Gauteng | Gauteng Repair Network",
+  title: "Cold Room Repair Near Me in Gauteng | Cold Storage Repair | Gauteng Repair Network",
   description:
-    "Cold room installation, repair, and maintenance across Gauteng. We build and service walk in cold rooms and freezer rooms for restaurants, butcheries, and businesses. Serving Pretoria, Johannesburg and Midrand.",
+    "Looking for cold room repair near me? We install, repair, and maintain cold storage and freezer rooms across Gauteng. Serving Pretoria, Johannesburg and Midrand. Fast, honest quotes.",
   keywords:
-    "cold room installation Gauteng, cold room repair Johannesburg, walk in freezer room Pretoria, freezer room repair, cold room maintenance Midrand, cold room not holding temperature, cold room cost Gauteng",
+    "cold room repair near me, cold storage repair near me, cold room installation Gauteng, cold room repair Johannesburg, walk in freezer room Pretoria, freezer room repair, cold room maintenance Midrand, cold room not holding temperature, cold room cost Gauteng",
   openGraph: {
-    title: "Cold Room Installation and Repair | Gauteng Repair Network Gauteng",
+    title: "Cold Room Repair Near Me | Gauteng Repair Network",
     description:
-      "Professional cold room and freezer room installation, repair, and maintenance for businesses across Gauteng.",
+      "Professional cold room and cold storage repair, installation, and maintenance for businesses across Gauteng.",
     images: [
       {
         url: "/cold-room-installation.png",
@@ -27,6 +27,11 @@ export const metadata: Metadata = {
 }
 
 const faqs = [
+  {
+    question: "Do you do cold room repair near me, or only certain areas of Gauteng?",
+    answer:
+      "We cover all of Gauteng, including Pretoria, Johannesburg, Midrand, Sandton, Centurion, Fourways, Randburg, Bedfordview, Rosebank, and Roodepoort. Wherever you're based in the province, we can get a technician to you.",
+  },
   {
     question: "How much does a cold room installation cost in Gauteng?",
     answer:
@@ -62,8 +67,8 @@ const faqs = [
 export default function ColdRoomPage() {
   return (
     <ServicePageTemplate
-      title="Cold Room Installation and Repair"
-      description="Gauteng Repair Network designs, installs, repairs, and maintains walk in cold rooms and freezer rooms for restaurants, butcheries, retailers, and other businesses across Gauteng. From new installations to breakdown repairs and routine maintenance, our technicians keep your stock at the right temperature and your operation running."
+      title="Cold Room Repair Near Me"
+      description="Searching for cold room repair near me or cold storage repair near me? Gauteng Repair Network designs, installs, repairs, and maintains walk in cold rooms and freezer rooms for restaurants, butcheries, retailers, and other businesses across Gauteng. From new installations to breakdown repairs and routine maintenance, our technicians keep your stock at the right temperature and your operation running."
       icon={Warehouse}
       heroImage="/cold-room-installation.png"
       priceRange="Free quotes"
@@ -186,6 +191,16 @@ export default function ColdRoomPage() {
                     Fast breakdown repairs and scheduled maintenance to prevent costly failures and stock loss.
                   </p>
                 </div>
+              </div>
+
+              <div className="mt-8 p-6 rounded-xl bg-gradient-to-br from-secondary/5 to-accent/5 border border-border">
+                <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
+                  <Warehouse className="h-6 w-6 text-secondary" />
+                  Looking for Cold Room Repair Near Me?
+                </h3>
+                <p className="text-muted-foreground">
+                  We cover the whole of Gauteng, including Pretoria, Johannesburg, Midrand, Sandton, Centurion, Fourways, Randburg, Bedfordview, Rosebank, and Roodepoort. Whether you searched for "cold room repair near me" or "cold storage repair near me," we're a call or WhatsApp away from getting a technician to your site. Same day quotes, honest pricing, no obligation.
+                </p>
               </div>
             </div>
           </div>
