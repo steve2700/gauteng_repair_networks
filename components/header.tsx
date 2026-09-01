@@ -186,13 +186,21 @@ export function Header() {
 
       {/* Main Header */}
       <div className="container mx-auto flex h-16 lg:h-20 items-center justify-between px-4 lg:px-8">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo-horizontal.svg"
+            src="/logo-icon.svg"
             alt="Gauteng Repair Network"
-            className="h-12 w-auto"
+            className="h-11 w-11 sm:h-12 sm:w-12 rounded-xl shadow-lg"
           />
+          <div className="flex flex-col leading-tight">
+            <span className="text-lg sm:text-xl font-bold tracking-tight text-primary">
+              Gauteng Repair Network
+            </span>
+            <span className="hidden sm:block text-[10px] font-semibold tracking-wider text-secondary">
+              FAST. TRUSTED. GAUTENG WIDE.
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
