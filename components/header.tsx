@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import {
   Menu,
   Phone,
@@ -316,6 +316,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-md p-0 border-l-0 overflow-hidden [&>button]:hidden">
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               {/* Mobile Menu Header */}
               <div className="bg-primary p-6 text-primary-foreground">
                 <div className="flex items-center justify-between mb-4">
