@@ -2,9 +2,14 @@ import type { Metadata } from "next"
 import { ServiceAreaTemplate } from "@/components/service-area-template"
 
 export const metadata: Metadata = {
-  title: "Appliance, Aircon and Refrigeration Repairs in Midrand | Gauteng Repair Network",
+  title: "Tumble Dryer, Freezer & Appliance Repair Service in Midrand | Gauteng Repair Network",
   description:
-    "Air conditioning, refrigeration, and appliance repairs in Midrand. Serving Carlswald, Halfway House, Vorna Valley, Kyalami, Waterfall and surrounding areas. Same day callouts available.",
+    "Tumble dryer repairs, freezer repairs, and appliance repair service in Midrand. Also air conditioning and refrigeration repairs. Serving Carlswald, Halfway House, Vorna Valley, Kyalami, Waterfall and surrounding areas. Same day callouts available.",
+  openGraph: {
+    title: "Tumble Dryer, Freezer & Appliance Repair Service in Midrand | Gauteng Repair Network",
+    description:
+      "Reliable tumble dryer, freezer, appliance, air conditioning, and refrigeration repairs for Midrand homes and businesses.",
+  },
 }
 
 export default function MidrandPage() {
@@ -23,14 +28,16 @@ export default function MidrandPage() {
         "Kyalami",
         "Waterfall",
       ]}
-      introduction="Midrand's position between Pretoria and Johannesburg has made it one of Gauteng's fastest growing areas. Gauteng Repair Network is well placed to serve Midrand's mix of residential estates, office parks, and commercial developments with reliable cooling and appliance repairs. From a fridge that has stopped cooling in a townhouse to refrigeration servicing for a business, we respond quickly with quality work."
+      introduction="Midrand's position between Pretoria and Johannesburg has made it one of Gauteng's fastest growing areas. Gauteng Repair Network offers a reliable appliance repair service in Midrand for the area's mix of residential estates, office parks, and commercial developments. Looking for tumble dryer repairs in Midrand or freezer repairs in Midrand? Our technicians handle both, along with fridges, air conditioning, and cold rooms. From a tumble dryer that has stopped heating in a townhouse to freezer repairs for a business, we respond quickly with quality work."
       servicesOffered={[
+        "Tumble dryer repairs",
+        "Freezer and chest freezer repairs",
+        "Washing machine repairs",
+        "Fridge repairs",
         "Air conditioning installation and servicing",
         "Aircon repairs and gas refills",
-        "Fridge and freezer repairs",
         "Cold room installation and repair",
         "Commercial and display fridge servicing",
-        "Washing machine and tumble dryer repairs",
         "Dishwasher, oven, and stove repairs",
         "Ice machine repairs and servicing",
         "Emergency breakdown callouts",
@@ -39,11 +46,12 @@ export default function MidrandPage() {
         "Refrigeration for offices and estates",
       ]}
       whyChooseUs={[
+        "Full appliance repair service in Midrand, not just cooling",
         "Centrally located for fast response across Midrand",
         "Experience with security estates and office parks",
         "Refrigerant handling certified and fully insured teams",
         "Honest, upfront quotes with no hidden costs",
-        "extended hours emergency support for cooling breakdowns",
+        "Extended hours emergency support for cooling breakdowns",
         "Quality parts and lasting repairs on every job",
       ]}
       nearbyAreas={[
