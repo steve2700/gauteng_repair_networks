@@ -3,18 +3,18 @@ import Link from "next/link"
 import Image from "next/image"
 import { Breadcrumbs } from "@/components/breadcrumbs"
 import { Button } from "@/components/ui/button"
-import { Target, Eye, CheckCircle, Users, Shield, Award, Leaf, Handshake, ArrowRight, Phone, Star, Snowflake, Clock } from "lucide-react"
+import { Target, Eye, CheckCircle, Users, Shield, Award, Leaf, Handshake, ArrowRight, Phone, Snowflake, Clock } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "About Gauteng Repair Network | Air Conditioning and Refrigeration Experts in Gauteng",
   description:
-    "Learn about Gauteng Repair Network, the trusted name in Gauteng for air conditioning, refrigeration, and appliance repairs. Over 10 years serving Pretoria, Johannesburg, and Midrand.",
+    "Learn about Gauteng Repair Network, a trusted name in Gauteng for air conditioning, refrigeration, and appliance repairs across Pretoria, Johannesburg, and Midrand.",
   keywords:
     "about Gauteng Repair Network, air conditioning company Gauteng, refrigeration technicians Pretoria, appliance repairs Johannesburg, company history, mission vision values",
   openGraph: {
     title: "About Gauteng Repair Network | Air Conditioning and Refrigeration Experts in Gauteng",
     description:
-      "The trusted cooling partner in Gauteng. Certified technicians delivering air conditioning, refrigeration, and appliance repairs in Pretoria, Johannesburg, and Midrand.",
+      "A trusted cooling partner in Gauteng. Certified technicians delivering air conditioning, refrigeration, and appliance repairs in Pretoria, Johannesburg, and Midrand.",
     images: [
       {
         url: "/cold-fix-technician-team-in-gauteng.png",
@@ -63,9 +63,9 @@ const team = [
 ]
 
 const stats = [
-  { value: "100s", label: "Clients Served", sublabel: "Across Gauteng" },
-  { value: "10+", label: "Years Experience", sublabel: "In Cooling" },
-  { value: "5 Star", label: "Client Rating", sublabel: "Trusted Service" },
+  { value: "Vetted", label: "Technicians", sublabel: "Certified & Insured" },
+  { value: "Same Day", label: "Quotes", sublabel: "Fast Response" },
+  { value: "Honest", label: "Pricing", sublabel: "No Hidden Costs" },
   { value: "Extended Hours", label: "Emergency Support", sublabel: "Same Day Response" },
 ]
 
@@ -84,12 +84,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2.5 text-sm font-medium text-white backdrop-blur-sm border border-white/10">
               <Award className="h-4 w-4 text-accent" aria-hidden="true" />
-              <span>Gauteng's Trusted Cooling Partner for 10+ Years</span>
-              <div className="flex items-center gap-0.5 ml-2">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-3 w-3 fill-accent text-accent" aria-hidden="true" />
-                ))}
-              </div>
+              <span>Gauteng's Trusted Repair Network</span>
             </div>
 
             <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">
@@ -97,7 +92,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-pretty text-lg text-primary-foreground/90 md:text-xl leading-relaxed">
               Founded with the goal to keep homes and businesses cool, comfortable, and running, {" "}
-              <strong className="text-white">Gauteng Repair Network</strong> has become a trusted partner for residential, commercial, and industrial clients across{" "}
+              <strong className="text-white">Gauteng Repair Network</strong> is building a reputation as a reliable partner for residential, commercial, and industrial clients across{" "}
               <strong className="text-white">Pretoria, Johannesburg, and Midrand</strong>.
             </p>
 
@@ -133,7 +128,7 @@ export default function AboutPage() {
                 We specialise in reliable, high quality service for homes and businesses. Our team keeps your fridges, freezers, cold rooms, air conditioners, and appliances running so you never have to worry about spoiled stock or an uncomfortable space.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                With <strong>over 10 years of experience</strong>, we are committed to honest advice, lasting repairs, and exceeding client expectations on every callout.
+                We are committed to honest advice, lasting repairs, and exceeding client expectations on every callout.
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-4">
@@ -172,9 +167,9 @@ export default function AboutPage() {
               </div>
 
               <div className="absolute -bottom-6 -right-6 rounded-2xl bg-gradient-to-br from-accent to-accent/90 p-6 text-accent-foreground shadow-2xl ring-2 ring-white/20">
-                <p className="text-4xl font-bold">10+</p>
-                <p className="text-sm font-semibold">Years</p>
-                <p className="text-xs opacity-90">Excellence</p>
+                <Award className="h-8 w-8 mb-1" aria-hidden="true" />
+                <p className="text-sm font-semibold">Certified</p>
+                <p className="text-xs opacity-90">Technicians</p>
               </div>
             </div>
           </div>
@@ -227,7 +222,7 @@ export default function AboutPage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" aria-hidden="true" />
                   <span className="text-muted-foreground leading-relaxed">
-                    Become the <strong>most trusted and sought after</strong> air conditioning and refrigeration company in Gauteng and beyond.
+                    Become a <strong>trusted and sought after</strong> air conditioning and refrigeration company in Gauteng and beyond.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -258,7 +253,7 @@ export default function AboutPage() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 relative">
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border">
                 <Image
                   src="/cold-fix-technicians-servicing-air-conditioner.png"
@@ -290,7 +285,7 @@ export default function AboutPage() {
                 A Team <span className="text-secondary">Committed to Excellence</span>
               </h2>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                We bring together a team of <strong>skilled, certified professionals</strong> committed to excellence. Our years of experience in air conditioning, refrigeration, and appliance repair let us provide tailored solutions for residential, commercial, and industrial clients across Gauteng.
+                We bring together a team of <strong>skilled, certified professionals</strong> committed to excellence. Our technicians work in air conditioning, refrigeration, and appliance repair to provide tailored solutions for residential, commercial, and industrial clients across Gauteng.
               </p>
 
               <div className="mb-8 grid grid-cols-2 gap-3">
