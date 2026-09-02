@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "HVAC and air conditioning maintenance contracts across Gauteng. Scheduled servicing for offices, retail, and industrial sites keeps your systems efficient and reliable. Serving Pretoria, Johannesburg and Midrand.",
   keywords:
-    "HVAC maintenance contract Gauteng, air conditioning service plan Johannesburg, aircon maintenance Pretoria, commercial HVAC servicing, refrigeration maintenance Midrand",
+    "HVAC maintenance contract Gauteng, air conditioning service plan Johannesburg, aircon maintenance Pretoria, commercial HVAC servicing, refrigeration maintenance Midrand, aircon maintenance plan, hvac service contract",
   openGraph: {
     title: "HVAC Maintenance Contracts | Gauteng Repair Network Gauteng",
     description:
@@ -25,6 +25,39 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const faqs = [
+  {
+    question: "What's included in an HVAC maintenance contract?",
+    answer:
+      "Typically scheduled servicing, filter cleaning, gas pressure checks, coil and condenser cleaning, electrical and control checks, and priority breakdown response. Exactly what's included depends on your equipment and site, we tailor each contract rather than using a one size fits all package.",
+  },
+  {
+    question: "How often will my system be serviced?",
+    answer:
+      "This depends on your equipment type, usage, and environment. Most commercial sites benefit from at least two services a year, high use environments like restaurants or cold chain operations often need more frequent visits. We recommend a schedule during the site survey.",
+  },
+  {
+    question: "What's the difference between a maintenance contract and a one off repair?",
+    answer:
+      "A one off repair fixes a problem after it happens. A maintenance contract catches small issues, like a slow gas leak or a dirty filter, before they cause a breakdown. Contract clients also get priority response if something does go wrong, which reduces downtime.",
+  },
+  {
+    question: "Can I get a contract for multiple sites?",
+    answer:
+      "Yes, we set up single site and multi site contracts, with a schedule that covers all your locations and equipment under one agreement.",
+  },
+  {
+    question: "How much does a maintenance contract cost?",
+    answer:
+      "Cost depends on the number of units, their size and type, how often they're serviced, and how many sites are covered. We do a site survey first and give you a clear, itemised quote, not a generic package price.",
+  },
+  {
+    question: "Can I cancel or change my contract later?",
+    answer:
+      "We build contracts to fit your business, so terms are discussed and agreed upfront. Talk to us about your specific needs, including flexibility, when we put your plan together.",
+  },
+]
 
 export default function HvacMaintenancePage() {
   return (
@@ -154,6 +187,39 @@ export default function HvacMaintenancePage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 lg:py-24 bg-background" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-center">Maintenance Contract Questions</h2>
+            <p className="text-center text-muted-foreground mb-12">
+              Answers to the questions businesses ask us most often about HVAC maintenance contracts.
+            </p>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-border bg-card p-6"
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
+                >
+                  <h3 className="font-bold text-lg mb-2" itemProp="name">
+                    {faq.question}
+                  </h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-sm text-muted-foreground leading-relaxed" itemProp="text">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
